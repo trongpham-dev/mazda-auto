@@ -1,6 +1,6 @@
 import { cars } from "../../data/dump.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import styles from "./Header.module.css";
+import styles from "../../styles/Home.module.css";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image.js";
 import logo from "../../static/images/logo.png";

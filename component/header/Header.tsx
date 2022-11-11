@@ -1,55 +1,78 @@
 import { cars } from "../../data/dump.js";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import styles from "../../styles/Home.module.css";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import styles from "./Header.module.css";
 import Image from "next/image.js";
-import logo from "../../static/images/logo.png";
+import logo from "../../public/logo.png";
+import { useState } from "react";
 
 export default function Header() {
+  const [toggle, setToggle] = useState(false);
+  function onToggleClick() {
+    setToggle(!toggle);
+  }
   return (
-    <nav className={styles.nav_bar}>
-      <ul className={styles.menu}>
+    <header className={styles.header}>
+      <nav className={styles.nav_bar}>
         <div className={styles.logo_wrapper}>
           <li className={styles.logo}>
             <a className={styles.link} href="/">
-              <Image src={logo} width={80} height={80} alt="Xe mazda" />
+              <Image
+                src={logo}
+                width={80}
+                height={80}
+                className={styles.logo_img}
+                alt="Xe mazda"
+              />
             </a>
           </li>
         </div>
-        <div className={styles.item_wrapper}>
-          <li className={styles.item}>
-            <a className={styles.link} href="/">
-              Trang Chủ
-            </a>
-          </li>
-          <li className={`${styles.item} ${styles.has_sub_menu}`}>
-            <a className={styles.link} href="/" tabIndex={0}>
-              Mẫu Xe
-            </a>
-            <ul className={styles.sub_menu}>
-              {cars?.map((car) => (
-                <li className={styles.sub_item} key={car}>
-                  <a className={styles.link} href="/">
-                    {car}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </li>
-          <li className={styles.item}>
-            <a className={styles.link} href="/">
-              Liên hệ
-            </a>
-          </li>
+        <div className={styles.menu_wrapper}>
+          <ul className={toggle ? `${styles.open_menu}` : `${styles.menu}`}>
+            <li className={styles.item}>
+              <a className={styles.link} href="/">
+                TRANG CHỦ
+              </a>
+            </li>
+            <li className={`${styles.item} ${styles.has_sub_menu}`}>
+              <a className={styles.link} tabIndex={0}>
+                MẪU XE
+              </a>
+              <div className={styles.sub_menu_wrapper}>
+                <ul className={styles.sub_menu}>
+                  {cars?.map((car) => (
+                    <>
+                      <li className={styles.sub_item} key={car}>
+                        <a className={styles.link} href="/">
+                          {car}
+                        </a>
+                      </li>
+                      <hr />
+                    </>
+                  ))}
+                </ul>
+              </div>
+            </li>
+            <li className={styles.item}>
+              <a className={styles.link} href="/">
+                LIÊN HỆ
+              </a>
+            </li>
+          </ul>
+          <div
+            className={styles.hamburger_icon}
+            onClick={() => onToggleClick()}
+          >
+            <div
+              className={toggle ? `${styles.open_bar1}` : `${styles.bar1}`}
+            ></div>
+            <div
+              className={toggle ? `${styles.open_bar2}` : `${styles.bar2}`}
+            ></div>
+            <div
+              className={toggle ? `${styles.open_bar3}` : `${styles.bar3}`}
+            ></div>
+          </div>
         </div>
-
-        <li className={styles.toggle}>
-          <a className={styles.link} href="/">
-            <i className="fas fa-bars"></i>
-            <FontAwesomeIcon className={styles.hambuger} icon={faBars} />
-          </a>
-        </li>
-      </ul>
-    </nav>
+      </nav>
+    </header>
   );
 }

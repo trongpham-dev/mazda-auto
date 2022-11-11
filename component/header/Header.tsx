@@ -1,7 +1,7 @@
 import { cars } from "../../data/dump.js";
 import styles from "./Header.module.css";
 import Image from "next/image.js";
-import logo from "../../public/logo.png";
+import logo from "../../public/mazda-logo.jpg";
 import { useState } from "react";
 
 export default function Header() {

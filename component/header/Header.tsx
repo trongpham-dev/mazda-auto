@@ -13,17 +13,15 @@ export default function Header() {
     <header className={styles.header}>
       <nav className={styles.nav_bar}>
         <div className={styles.logo_wrapper}>
-          <li className={styles.logo}>
-            <a className={styles.link} href="/">
-              <Image
-                src={logo}
-                width={80}
-                height={80}
-                className={styles.logo_img}
-                alt="Xe mazda"
-              />
-            </a>
-          </li>
+          <a className={styles.link} href="/">
+            <Image
+              src={logo}
+              width={80}
+              height={80}
+              className={styles.logo_img}
+              alt="Xe mazda"
+            />
+          </a>
         </div>
         <div className={styles.menu_wrapper}>
           <ul className={toggle ? `${styles.open_menu}` : `${styles.menu}`}>

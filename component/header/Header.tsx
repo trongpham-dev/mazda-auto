@@ -1,9 +1,14 @@
 import { cars } from "../../data/dump.js";
 import styles from "./Header.module.css";
-import Image from "next/image.js";
-import logo from "../../public/mazda-logo.jpg";
+import Image, { StaticImageData } from "next/image.js";
 import { useState } from "react";
 
+interface Logo {
+  logoURL: string | StaticImageData;
+}
+const logoImage: Logo = {
+  logoURL: "/mazda-logo.png",
+};
 export default function Header() {
   const [toggle, setToggle] = useState(false);
   function onToggleClick() {
@@ -15,7 +20,7 @@ export default function Header() {
         <div className={styles.logo_wrapper}>
           <a className={styles.link} href="/">
             <Image
-              src={"/cx-30.jpg"}
+              src={logoImage.logoURL}
               width={80}
               height={80}
               className={styles.logo_img}

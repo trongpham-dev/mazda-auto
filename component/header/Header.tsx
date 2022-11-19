@@ -7,7 +7,7 @@ interface Logo {
   logoURL: string | StaticImageData;
 }
 const logoImage: Logo = {
-  logoURL: "/mazda-logo.png",
+  logoURL: "/mazda-logo.jpg",
 };
 export default function Header() {
   const [toggle, setToggle] = useState(false);

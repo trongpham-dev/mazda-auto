@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.slide_wrapper}>
-        <Carousel autoPlay={true} transitionTime={1000} dynamicHeight={false}>
+        <Carousel autoPlay={true} transitionTime={1000} showThumbs={false}>
           <div>
             <Image src={Slide1} alt="xe mazda" />
           </div>

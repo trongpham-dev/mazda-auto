@@ -5,9 +5,11 @@ import { useState } from "react";
 
 interface Logo {
   logoURL: string | StaticImageData;
+  alt: string;
 }
 const logoImage: Logo = {
   logoURL: "/mazda-logo.jpg",
+  alt: "XE MAZDA",
 };
 export default function Header() {
   const [toggle, setToggle] = useState(false);
@@ -24,7 +26,7 @@ export default function Header() {
               width={80}
               height={80}
               className={styles.logo_img}
-              alt="Xe mazda"
+              alt={logoImage.alt}
             />
           </a>
         </div>

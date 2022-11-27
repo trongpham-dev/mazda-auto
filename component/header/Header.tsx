@@ -50,7 +50,6 @@ export default function Header() {
                           {car}
                         </a>
                       </li>
-                      <hr />
                     </>
                   ))}
                 </ul>

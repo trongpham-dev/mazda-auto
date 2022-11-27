@@ -1,0 +1,11 @@
+.car_detail_wrapper {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1140px;
+}
+.car_infor_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}

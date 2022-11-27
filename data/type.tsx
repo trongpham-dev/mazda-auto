@@ -9,37 +9,37 @@ export default interface Car {
 
 export let product_list: Car[] = [
   {
-    productId: "cx-3",
+    productId: "mazda-cx5",
     productName: "Mazda CX-3",
-    productImage: "/cx-5.jpg",
+    productImage: "/cx-5.png",
     productPrice: "849.000.000đ",
   },
   {
-    productId: "cx-5",
+    productId: "mazda-cx5",
     productName: "Mazda CX-5",
-    productImage: "/cx-5.jpg",
+    productImage: "/cx-5.png",
     productPrice: "849.000.000đ",
   },
   {
-    productId: "cx-8",
+    productId: "mazda-cx5",
     productName: "Mazda CX-8",
-    productImage: "/cx-8.jpg",
+    productImage: "/cx-5.png",
     productPrice: "849.000.000đ",
   },
   {
-    productId: "cx-30",
+    productId: "mazda-cx5",
     productName: "Mazda CX-30",
     productImage: "/cx-30.jpg",
     productPrice: "849.000.000đ",
   },
   {
-    productId: "mazda-2",
+    productId: "mazda-cx5",
     productName: "Mazda 2",
     productImage: "/mazda2.jpg",
     productPrice: "849.000.000đ",
   },
   {
-    productId: "mazda-2-sport",
+    productId: "mazda-cx5",
     productName: "Mazda 2 Sport",
     productImage: "/mazda2_sport.jpg",
     productPrice: "849.000.000đ",

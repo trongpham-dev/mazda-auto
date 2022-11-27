@@ -4,9 +4,9 @@ import styles from "../styles/Home.module.css";
 import Slide1 from "../public/slide1.jpg";
 import Image from "next/image";
 import { product_list } from "../data/type";
+import Link from "next/link";
 
 export default function Home() {
-  console.log(product_list);
   return (
     <div className={styles.container}>
       <div className={styles.slide_wrapper}>
@@ -28,14 +28,24 @@ export default function Home() {
             {product_list.map((car) => (
               <div className={styles.product} key={car.productId}>
                 <div className={styles.product_image}>
-                  <a href="#" className={styles.product_link}>
-                    <Image
-                      src={car.productImage}
-                      width={800}
-                      height={450}
-                      alt={car.productName}
-                    />
-                  </a>
+                  <Link
+                    href={{
+                      pathname: "/o-to/mazda",
+                      query: { id: car.productId },
+                    }}
+                    className={styles.product_link}
+                    key={car.productId}
+                    legacyBehavior
+                  >
+                    <a>
+                      <Image
+                        src={car.productImage}
+                        width={800}
+                        height={450}
+                        alt={car.productName}
+                      />
+                    </a>
+                  </Link>
                 </div>
                 <div className={styles.product_info}>
                   <h4 className={styles.product_name}> {car.productName}</h4>

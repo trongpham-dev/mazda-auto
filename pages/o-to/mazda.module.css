@@ -9,3 +9,8 @@
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
+
+.carousel .thumb {
+  width: 5%;
+  height: 50px;
+}

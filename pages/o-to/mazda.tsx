@@ -3,6 +3,7 @@ import { HTMLToReact } from "../../common/HtmlToReact";
 import CarDetail, { detail } from "../../data/detail";
 import styles from "../o-to/mazda.module.css";
 import Image from "next/image";
+import { Carousel } from "react-responsive-carousel";
 
 let parse = HTMLToReact;
 let carDetail: CarDetail = {
@@ -22,7 +23,35 @@ export default function mazda() {
   return (
     <div className={styles.car_detail_wrapper}>
       <div className={styles.car_infor_wrapper}>
-        <div className={styles.car_image}></div>
+        <div className={styles.car_image}>
+          <Carousel
+            autoPlay
+            axis="horizontal"
+            infiniteLoop
+            transitionTime={1000}
+            renderThumbs={() =>
+              carDetail?.carImage.map((imgUrl, key) => (
+                <Image
+                  src={imgUrl}
+                  alt={carDetail.carName}
+                  width={600}
+                  height={338}
+                />
+              ))
+            }
+          >
+            {carDetail?.carImage.map((imgUrl, key) => (
+              <div key={key}>
+                <Image
+                  src={imgUrl}
+                  alt={carDetail.carName}
+                  width={600}
+                  height={338}
+                />
+              </div>
+            ))}
+          </Carousel>
+        </div>
         <div className={styles.car_infor}>
           <h2 className={styles.car_name}>{carDetail.carName}</h2>
           <div className={styles.divider}></div>

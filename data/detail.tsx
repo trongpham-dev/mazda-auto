@@ -7,7 +7,7 @@ interface CarModel {
 export default interface CarDetail {
   carId: string;
   carName: string;
-  carImage: string[] | StaticImageData;
+  carImage: string[];
   carPrice: string;
   carModel: CarModel[];
   description: { payload: string };

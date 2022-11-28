@@ -31,18 +31,21 @@ export default function Header() {
           </a>
         </div>
         <div className={styles.menu_wrapper}>
-          <ul className={toggle ? `${styles.open_menu}` : `${styles.menu}`}>
-            <li className={styles.item}>
+          <ul
+            className={toggle ? `${styles.open_menu}` : `${styles.menu}`}
+            key="menu"
+          >
+            <li className={styles.item} key="home">
               <a className={styles.link} href="/">
                 TRANG CHỦ
               </a>
             </li>
-            <li className={`${styles.item} ${styles.has_sub_menu}`}>
+            <li className={`${styles.item} ${styles.has_sub_menu}`} key="model">
               <a className={styles.link} tabIndex={0}>
                 MẪU XE
               </a>
               <div className={styles.sub_menu_wrapper}>
-                <ul className={styles.sub_menu}>
+                <ul className={styles.sub_menu} key="submenu">
                   {cars?.map((car) => (
                     <>
                       <li className={styles.sub_item} key={car}>
@@ -55,7 +58,7 @@ export default function Header() {
                 </ul>
               </div>
             </li>
-            <li className={styles.item}>
+            <li className={styles.item} key="contact">
               <a className={styles.link} href="/">
                 LIÊN HỆ
               </a>

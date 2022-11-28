@@ -1,7 +1,11 @@
+.car_detail {
+  width: 100%;
+}
 .car_detail_wrapper {
   margin: auto;
   display: flex;
   flex-direction: column;
+  padding: 50px 0;
   max-width: 1140px;
 }
 .car_infor_wrapper {
@@ -10,7 +14,150 @@
   gap: 20px;
 }
 
-.carousel .thumb {
-  width: 5%;
-  height: 50px;
+.car_infor {
+  padding: 20px;
+}
+
+.car_infor .car_name {
+  font-size: 140%;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.3;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  text-rendering: optimizeSpeed;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.divider {
+  height: 3px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 1em 0 1em;
+  width: 100%;
+  max-width: 30px;
+}
+.price_wrapper .car_price {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+  font-weight: bolder;
+  line-height: 1;
+}
+
+.car_model_price {
+  background-color: #e0e0e0;
+  padding: 5px;
+  text-align: left;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125em;
+  color: #555;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  text-rendering: optimizeSpeed;
+  display: block;
+}
+
+.car_short_description .model_name {
+  margin-top: 0;
+  display: block;
+}
+
+.car_short_description .model_price {
+  color: #00adef;
+}
+
+.discount_infor {
+  background-color: #00adef;
+  font-family: "Roboto", sans-serif;
+  border-radius: 3px;
+  color: white;
+  padding: 5px;
+  text-align: left;
+  font-size: 80%;
+  display: block;
+  padding: 10px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.contact_infor .phone {
+  background-color: #00adef;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 10px 50px;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.6em;
+  line-height: 1.3;
+  color: #555;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  text-rendering: optimizeSpeed;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.title .title_content {
+  padding-left: 10px;
+  border-left-style: solid;
+  border-left-width: medium;
+  border-left-color: black;
+  color: black;
+  font-size: 90%;
+  text-transform: uppercase;
+  font-family: "mazdatypeviet-bold", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.content {
+  text-align: justify;
+  margin-top: 0;
+  margin-bottom: 1.3em;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .car_detail_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .car_infor_wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .title {
+    font-size: 1em;
+  }
+
+  .description_wrapper {
+    padding: 0 20px;
+  }
 }

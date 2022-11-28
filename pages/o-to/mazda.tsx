@@ -1,12 +1,10 @@
 import { useRouter } from "next/router";
-import { HTMLToReact } from "../../common/HtmlToReact";
 import CarDetail, { detail } from "../../data/detail";
-import Image from "next/image";
-import { Carousel } from "react-responsive-carousel";
+import "react-image-gallery/styles/css/image-gallery.css";
 import React, { useEffect, useState } from "react";
 import styles from "../o-to/mazda.module.css";
+import ImageGallery from "react-image-gallery";
 
-let parse = HTMLToReact;
 export default function Mazda() {
   const router = useRouter();
 
@@ -34,43 +32,16 @@ export default function Mazda() {
 }
 
 function renderDetail(carDetail: CarDetail) {
-  {
-    console.log(carDetail.carVideo);
-  }
   return (
     <div className={styles.car_detail}>
       <div className={styles.car_detail_wrapper}>
         <div className={styles.car_infor_wrapper}>
           <div className={styles.car_image}>
-            <Carousel
-              autoPlay
-              axis="horizontal"
-              infiniteLoop
-              transitionTime={1000}
-              renderThumbs={() =>
-                carDetail.carImage.map((imgUrl, key) => (
-                  <Image
-                    src={imgUrl}
-                    alt={carDetail.carName}
-                    width={400}
-                    height={338}
-                    key={key}
-                  />
-                ))
-              }
-            >
-              {carDetail.carImage.map((imgUrl, key) => (
-                <div key={key}>
-                  <Image
-                    src={imgUrl}
-                    alt={carDetail.carName}
-                    width={400}
-                    height={338}
-                    key={key}
-                  />
-                </div>
-              ))}
-            </Carousel>
+            <ImageGallery
+              thumbnailPosition={"left"}
+              items={carDetail.carImage}
+              showNav={false}
+            />
           </div>
           <div className={styles.car_infor}>
             <h2 className={styles.car_name}>{carDetail.carName}</h2>

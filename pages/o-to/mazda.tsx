@@ -3,11 +3,11 @@ import { HTMLToReact } from "../../common/HtmlToReact";
 import CarDetail, { detail } from "../../data/detail";
 import Image from "next/image";
 import { Carousel } from "react-responsive-carousel";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../o-to/mazda.module.css";
 
 let parse = HTMLToReact;
-export default function mazda() {
+export default function Mazda() {
   const router = useRouter();
 
   const [carDetail, setCarDetail] = useState<CarDetail>({
@@ -17,7 +17,7 @@ export default function mazda() {
     carPrice: "",
     carModel: [],
     carVideo: "",
-    description: { payload: "" },
+    description: () => <h1></h1>,
   });
 
   useEffect(() => {
@@ -109,16 +109,7 @@ function renderDetail(carDetail: CarDetail) {
             </div>
           </div>
         </div>
-        <div className={styles.description_wrapper}>
-          <div className={styles.short_video}>
-            <video width="1170" height="300" autoPlay>
-              <source src={carDetail.carVideo} type="video/mp4" />
-            </video>
-          </div>
-          <div className={styles.description_content}>
-            {parse(carDetail.description)}
-          </div>
-        </div>
+        {carDetail.description()}
       </div>
     </div>
   );

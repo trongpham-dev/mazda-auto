@@ -1,8 +1,4 @@
 import styles from "../footer/Footer.module.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
-import { faSquarePhone } from "@fortawesome/free-solid-svg-icons";
-import { faSquarePlus } from "@fortawesome/free-solid-svg-icons";
 export default function Footer() {
   return (
     <div className={styles.footer_wrapper}>

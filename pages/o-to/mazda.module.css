@@ -1,3 +1,4 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
 .car_detail {
   width: 100%;
 }
@@ -147,11 +148,15 @@
   .car_detail_wrapper {
     display: flex;
     flex-direction: column;
+    padding: 10px 0;
     width: 100%;
   }
   .car_infor_wrapper {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .car_image {
+    padding: 0 20px;
   }
   .title {
     font-size: 1em;

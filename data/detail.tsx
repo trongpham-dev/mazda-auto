@@ -4,10 +4,11 @@ interface CarModel {
   modelName: string;
   modelPrice: string;
 }
+
 export default interface CarDetail {
   carId: string;
   carName: string;
-  carImage: string[];
+  carImage: { original: string; thumbnail: string }[];
   carPrice: string;
   carModel: CarModel[];
   carVideo: string;
@@ -19,13 +20,34 @@ export let detail: CarDetail[] = [
     carId: "mazda-cx5",
     carName: "NEW MAZDA CX5",
     carImage: [
-      "/detail/cx-5/cx5-xanh.jpg",
-      "/detail/cx-5/cx5-den.jpg",
-      "/detail/cx-5/cx5-nau.jpg",
-      "/detail/cx-5/cx5-do.jpg",
-      "/detail/cx-5/cx5-trang.jpg",
-      "/detail/cx-5/cx5-vang-cat.jpg",
-      "/detail/cx-5/cx5-xam.jpg",
+      {
+        original: "/detail/cx-5/cx5-xanh.jpg",
+        thumbnail: "/detail/cx-5/cx5-xanh.jpg",
+      },
+      {
+        original: "/detail/cx-5/cx5-den.jpg",
+        thumbnail: "/detail/cx-5/cx5-den.jpg",
+      },
+      {
+        original: "/detail/cx-5/cx5-nau.jpg",
+        thumbnail: "/detail/cx-5/cx5-nau.jpg",
+      },
+      {
+        original: "/detail/cx-5/cx5-do.jpg",
+        thumbnail: "/detail/cx-5/cx5-do.jpg",
+      },
+      {
+        original: "/detail/cx-5/cx5-trang.jpg",
+        thumbnail: "/detail/cx-5/cx5-trang.jpg",
+      },
+      {
+        original: "/detail/cx-5/cx5-vang-cat.jpg",
+        thumbnail: "/detail/cx-5/cx5-vang-cat.jpg",
+      },
+      {
+        original: "/detail/cx-5/cx5-xam.jpg",
+        thumbnail: "/detail/cx-5/cx5-xam.jpg",
+      },
     ],
     carPrice: "839.000.000₫",
     carModel: [

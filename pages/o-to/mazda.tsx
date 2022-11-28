@@ -54,7 +54,7 @@ function renderDetail(carDetail: CarDetail) {
             <div className={styles.car_short_description}>
               <h4 className={styles.car_model_price}>Giá xe New Mazda CX-5</h4>
               {carDetail.carModel.map((car) => (
-                <p className={styles.model_name}>
+                <p className={styles.model_name} key={car.modelName}>
                   {car.modelName}
                   <span className={styles.model_price}>{car.modelPrice}</span>
                 </p>

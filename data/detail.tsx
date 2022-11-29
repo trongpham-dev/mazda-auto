@@ -64,14 +64,6 @@ export let detail: CarDetail[] = [
         modelPrice: "919.000.000đ",
       },
       {
-        modelName: "Mazda CX-5 2.5L Luxury: ",
-        modelPrice: "889.000.000đ",
-      },
-      {
-        modelName: "Mazda CX-5 2.5L Signature Premium 2WD: ",
-        modelPrice: "999.000.000đ",
-      },
-      {
         modelName: "Mazda CX-5 2.5L Signature Premium AWD: ",
         modelPrice: "1.059.000.000đ",
       },

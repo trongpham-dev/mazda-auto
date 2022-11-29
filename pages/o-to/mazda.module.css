@@ -166,3 +166,26 @@
     padding: 0 20px;
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .car_detail_wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    width: 100%;
+  }
+  .car_infor_wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .car_image {
+    padding: 0 20px;
+  }
+  .title {
+    font-size: 1em;
+  }
+
+  .description_wrapper {
+    padding: 0 20px;
+  }
+}

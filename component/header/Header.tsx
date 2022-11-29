@@ -7,15 +7,16 @@ interface Logo {
   logoURL: string | StaticImageData;
   alt: string;
 }
-const logoImage: Logo = {
-  logoURL: "/mazda-logo.jpg",
-  alt: "XE MAZDA",
-};
+
 export default function Header() {
   const [toggle, setToggle] = useState(false);
   function onToggleClick() {
     setToggle(!toggle);
   }
+  const logoImage: Logo = {
+    logoURL: "/mazda-logo.jpg",
+    alt: "XE MAZDA",
+  };
   return (
     <header className={styles.header}>
       <nav className={styles.nav_bar}>

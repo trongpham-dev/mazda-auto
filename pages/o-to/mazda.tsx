@@ -18,7 +18,12 @@ export default function Mazda() {
     description: () => <h1></h1>,
   });
 
+  const [screenSize, setScreenSize] = useState(1920);
+
   useEffect(() => {
+    window.addEventListener("resize", () => {
+      setScreenSize(window.innerWidth);
+    });
     if (router.isReady) {
       const {
         query: { id },
@@ -27,18 +32,23 @@ export default function Mazda() {
       let carInfor: CarDetail = detail.filter((car) => car.carId === id)[0];
       setCarDetail(carInfor);
     }
-  }, [carDetail, router.isReady]);
-  return carDetail ? renderDetail(carDetail) : <h1>Content Not Found</h1>;
+    console.log(screenSize);
+  }, [carDetail, router.isReady, screenSize]);
+  return carDetail ? (
+    renderDetail(carDetail, screenSize)
+  ) : (
+    <h1>Content Not Found</h1>
+  );
 }
 
-function renderDetail(carDetail: CarDetail) {
+function renderDetail(carDetail: CarDetail, screenSize: number) {
   return (
     <div className={styles.car_detail}>
       <div className={styles.car_detail_wrapper}>
         <div className={styles.car_infor_wrapper}>
           <div className={styles.car_image}>
             <ImageGallery
-              thumbnailPosition={"left"}
+              thumbnailPosition={screenSize < 768 ? "left" : "bottom"}
               items={carDetail.carImage}
               showNav={false}
             />

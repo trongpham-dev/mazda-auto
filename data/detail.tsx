@@ -85,7 +85,7 @@ function renderCx5() {
   return (
     <div className={styles.description_wrapper}>
       <div className={styles.short_video}>
-        <video width="1170" height="300" autoPlay>
+        <video width="1170" height="300" autoPlay controls>
           <source src="/detail/cx-5/cx5-clip.mp4" type="video/mp4" />
         </video>
       </div>

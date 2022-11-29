@@ -32,7 +32,6 @@ export default function Mazda() {
       let carInfor: CarDetail = detail.filter((car) => car.carId === id)[0];
       setCarDetail(carInfor);
     }
-    console.log(screenSize);
   }, [carDetail, router.isReady, screenSize]);
   return carDetail ? (
     renderDetail(carDetail, screenSize)

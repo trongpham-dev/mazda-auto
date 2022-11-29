@@ -1,12 +1,12 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import styles from "../styles/Home.module.css";
-import Slide1 from "../public/slide1.jpg";
 import Image from "next/image";
 import { product_list } from "../data/type";
 import Link from "next/link";
 import HeadSeo from "../component/seo/HeadSeo";
 import MetaData from "../data/meta";
+import SliderImage from "../data/slider";
 
 let metaData: MetaData = {
   title: "Mazda Bình Dương",
@@ -15,6 +15,29 @@ let metaData: MetaData = {
   ogType: "Website",
   ogImageUrl: "https://main.d28u7m8fcyk6b7.amplifyapp.com/cx-5-ngoai-that.jpg",
 };
+
+let sliderImages: SliderImage[] = [
+  {
+    imgUrl: "/slide1.jpg",
+    alt: "MAZDA CX-5 2022",
+  },
+  {
+    imgUrl: "/slide1.jpg",
+    alt: "MAZDA CX-30 2022",
+  },
+  // {
+  //   imgUrl: "/slide/mazda-2.jpg",
+  //   alt: "MAZDA 2 2022",
+  // },
+  // {
+  //   imgUrl: "/slide/mazda-3.jpg",
+  //   alt: "MAZDA 3 2022",
+  // },
+  // {
+  //   imgUrl: "/slide/mazda-6.jpg",
+  //   alt: "MAZDA 6 2022",
+  // },
+];
 export default function Home() {
   return (
     <>
@@ -34,12 +57,16 @@ export default function Home() {
             transitionTime={1000}
             showThumbs={false}
           >
-            <div>
-              <Image src={Slide1} alt="xe mazda" />
-            </div>
-            <div>
-              <Image src={Slide1} alt="xe mazda" />
-            </div>
+            {sliderImages?.map((item, key) => (
+              <div className={styles.slide_image} key={key}>
+                <Image
+                  src={item.imgUrl}
+                  width={1920}
+                  height={540}
+                  alt={item.alt}
+                />
+              </div>
+            ))}
           </Carousel>
         </div>
         <div className={styles.product_wrapper}>

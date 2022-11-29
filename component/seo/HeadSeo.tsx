@@ -1,5 +1,4 @@
 import Head from "next/head";
-import MetaData from "../../data/meta";
 import siteMetadata from "../../data/siteMetadata";
 type Props = {
   title: string;

@@ -28,7 +28,6 @@
 .product_price {
   color: #777777;
 }
-
 /* mobile menu */
 @media only screen and (max-width: 600px) {
   .product_list {

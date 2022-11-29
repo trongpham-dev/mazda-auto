@@ -25,7 +25,9 @@ export default function Footer() {
             <div className={styles.col_right_inner}>
               <div className={styles.col_right_gap}></div>
               <a href="tel:0333399053" className={styles.phone}>
-                <span>Hotline: 033.339.9053</span>
+                <span className={styles.phone_content}>
+                  Hotline: 033.339.9053
+                </span>
               </a>
             </div>
           </div>

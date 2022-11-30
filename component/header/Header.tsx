@@ -1,4 +1,3 @@
-import { cars } from "../../data/dump.js";
 import styles from "./Header.module.css";
 import Image, { StaticImageData } from "next/image.js";
 import { useState } from "react";
@@ -15,12 +14,6 @@ export default function Header() {
   function onToggleClick() {
     setToggle(!toggle);
   }
-
-  const [isOpen, setIsopen] = useState(false);
-
-  const toggleDropDown = () => {
-    setIsopen((isOpen) => !isOpen);
-  };
 
   const logoImage: Logo = {
     logoURL: "/mazda-logo.jpg",
@@ -45,32 +38,48 @@ export default function Header() {
             <Nav.Item eventKey="1">TRANG CHỦ</Nav.Item>
             <Nav.Menu eventKey="2" title="MAZDA SUV">
               <Nav.Item eventKey="2-1">
-                <a href="/o-to/mazda?id=mazda-cx3">Mazda CX3</a>
+                <a className={styles.link} href="/o-to/mazda?id=mazda-cx3">
+                  Mazda CX3
+                </a>
               </Nav.Item>
-              <Nav.Item eventKey="2-2" href="/o-to/mazda?id=mazda-cx30">
-                <a href="/o-to/mazda?id=mazda-cx30">Mazda CX30</a>
+              <Nav.Item eventKey="2-2">
+                <a className={styles.link} href="/o-to/mazda?id=mazda-cx30">
+                  Mazda CX30
+                </a>
               </Nav.Item>
               <Nav.Item eventKey="2-3">
-                <a href="/o-to/mazda?id=mazda-cx5">Mazda CX5 all new</a>
+                <a className={styles.link} href="/o-to/mazda?id=mazda-cx5">
+                  Mazda CX5 all new
+                </a>
               </Nav.Item>
-              <Nav.Item eventKey="2-4" href="/o-to/mazda?id=mazda-cx8">
-                Mazda CX8
+              <Nav.Item eventKey="2-4">
+                <a className={styles.link} href="/o-to/mazda?id=mazda-cx8">
+                  Mazda CX8
+                </a>
               </Nav.Item>
             </Nav.Menu>
             <Nav.Menu eventKey="3" title="MAZDA SEDAN">
-              <Nav.Item eventKey="3-1" href="/o-to/mazda?id=mazda-2">
-                All-New Mazda 2
+              <Nav.Item eventKey="3-1">
+                <a className={styles.link} href="/o-to/mazda?id=mazda-2">
+                  All-New Mazda 2
+                </a>
               </Nav.Item>
-              <Nav.Item eventKey="3-2" href="/o-to/mazda?id=mazda-3">
-                All-New Mazda 3
+              <Nav.Item eventKey="3-2">
+                <a className={styles.link} href="/o-to/mazda?id=mazda-3">
+                  All-New Mazda 3
+                </a>
               </Nav.Item>
-              <Nav.Item eventKey="3-3" href="/o-to/mazda?id=mazda-6">
-                All-New Mazda 6
+              <Nav.Item eventKey="3-3">
+                <a className={styles.link} href="/o-to/mazda?id=mazda-3">
+                  All-New Mazda 6
+                </a>
               </Nav.Item>
             </Nav.Menu>
             <Nav.Menu eventKey="4" title="MAZDA BÁN TẢI">
-              <Nav.Item eventKey="4-1" href="/o-to/mazda?id=mazda-bt-50">
-                Mazda BT-50
+              <Nav.Item eventKey="4-1">
+                <a className={styles.link} href="/o-to/mazda?id=mazda-bt-50">
+                  Mazda BT-50
+                </a>
               </Nav.Item>
             </Nav.Menu>
             <Nav.Item eventKey="5">LIÊN HỆ</Nav.Item>
@@ -96,18 +105,53 @@ export default function Header() {
               <Nav activeKey="1">
                 <Nav.Item eventKey="1">TRANG CHỦ</Nav.Item>
                 <Nav.Menu eventKey="2" title="MAZDA SUV">
-                  <Nav.Item eventKey="2-1">Mazda CX3</Nav.Item>
-                  <Nav.Item eventKey="2-2">Mazda CX30</Nav.Item>
-                  <Nav.Item eventKey="2-3">Mazda CX5 all new</Nav.Item>
-                  <Nav.Item eventKey="2-4">Mazda CX8</Nav.Item>
+                  <Nav.Item eventKey="2-1">
+                    <a className={styles.link} href="/o-to/mazda?id=mazda-cx3">
+                      Mazda CX3
+                    </a>
+                  </Nav.Item>
+                  <Nav.Item eventKey="2-2">
+                    <a className={styles.link} href="/o-to/mazda?id=mazda-cx30">
+                      Mazda CX30
+                    </a>
+                  </Nav.Item>
+                  <Nav.Item eventKey="2-3">
+                    <a className={styles.link} href="/o-to/mazda?id=mazda-cx5">
+                      Mazda CX5 all new
+                    </a>
+                  </Nav.Item>
+                  <Nav.Item eventKey="2-4">
+                    <a className={styles.link} href="/o-to/mazda?id=mazda-cx8">
+                      Mazda CX8
+                    </a>
+                  </Nav.Item>
                 </Nav.Menu>
                 <Nav.Menu eventKey="3" title="MAZDA SEDAN">
-                  <Nav.Item eventKey="3-1">All-New Mazda 2</Nav.Item>
-                  <Nav.Item eventKey="3-2">All-New Mazda 3</Nav.Item>
-                  <Nav.Item eventKey="3-3">All-New Mazda 6</Nav.Item>
+                  <Nav.Item eventKey="3-1">
+                    <a className={styles.link} href="/o-to/mazda?id=mazda-2">
+                      All-New Mazda 2
+                    </a>
+                  </Nav.Item>
+                  <Nav.Item eventKey="3-2">
+                    <a className={styles.link} href="/o-to/mazda?id=mazda-3">
+                      All-New Mazda 3
+                    </a>
+                  </Nav.Item>
+                  <Nav.Item eventKey="3-3">
+                    <a className={styles.link} href="/o-to/mazda?id=mazda-3">
+                      All-New Mazda 6
+                    </a>
+                  </Nav.Item>
                 </Nav.Menu>
                 <Nav.Menu eventKey="4" title="MAZDA BÁN TẢI">
-                  <Nav.Item eventKey="4-1">Mazda BT-50</Nav.Item>
+                  <Nav.Item eventKey="4-1">
+                    <a
+                      className={styles.link}
+                      href="/o-to/mazda?id=mazda-bt-50"
+                    >
+                      Mazda BT-50
+                    </a>
+                  </Nav.Item>
                 </Nav.Menu>
                 <Nav.Item eventKey="5">LIÊN HỆ</Nav.Item>
               </Nav>

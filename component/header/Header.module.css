@@ -4,6 +4,8 @@
   background: #0a0204;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding: 0 50px;
   color: white;
 }
 .nav_bar {
@@ -16,6 +18,15 @@
   z-index: 30;
   background-color: #070707;
   background-size: cover;
+}
+
+.link {
+  text-decoration: none !important;
+  color: black;
+}
+
+.link:hover {
+  color: #555;
 }
 
 .hamburger_icon {
@@ -53,7 +64,7 @@
 }
 
 /* mobile menu */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .header {
     padding: 0 20px;
     justify-content: space-between;

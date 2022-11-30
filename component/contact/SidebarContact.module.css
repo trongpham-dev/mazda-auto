@@ -1,24 +1,27 @@
 .button_contact {
   transform: scale(1.1);
   position: fixed;
-  bottom: 0;
+  top: 50%;
   z-index: 99999;
 }
-.phone_vr {
+.contact_vr {
   position: relative;
   visibility: visible;
   background-color: transparent;
-  width: 90px;
-  height: 90px;
+  width: 60px;
+  height: 60px;
   cursor: pointer;
   z-index: 11;
-  transition: visibility 0.5s;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: visibility;
   left: 0;
   bottom: 0;
   display: block;
 }
 
-.phone_vr_circle_fill {
+.zalo_vr_circle_fill {
   box-shadow: 0 0 0 0 #2196f3;
   background-color: rgba(33, 150, 243, 0.7);
   width: 65px;
@@ -26,14 +29,15 @@
   top: 12px;
   left: 12px;
   position: absolute;
+  opacity: 0;
   border-radius: 50%;
   border: 2px solid transparent;
   transition: all 0.5s;
   transform-origin: 50% 50%;
-  animation: zoom 1.3s infinite;
+  animation: zoom-in-zoom-out 2s infinite cubic-bezier(0.36, 0.11, 0.89, 0.32);
 }
 
-.phone_vr_img_circle {
+.zalo_vr_img_circle {
   background-color: #2196f3;
   width: 40px;
   height: 40px;
@@ -45,7 +49,56 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
-  animation: phone-vr-circle-fill 1s infinite ease-in-out;
+}
+
+.zalo_vr_img_circle .link {
+  display: block;
+  line-height: 37px;
+  text-decoration: none;
+  touch-action: manipulation;
+  background-color: transparent;
+}
+.zalo_vr_img_circle .image {
+  max-height: 25px;
+  max-width: 27px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  opacity: 1;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  border-style: none;
+  animation: left-right 0.5s ease infinite;
+}
+
+.phone_vr_circle_fill {
+  box-shadow: 0 0 0 0 #e60808;
+  background-color: #e60808;
+  width: 65px;
+  height: 65px;
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transition: all 0.5s;
+  transform-origin: 50% 50%;
+  animation: zoom-in-zoom-out 2s infinite cubic-bezier(0.36, 0.11, 0.89, 0.32);
+}
+
+.phone_vr_img_circle {
+  background-color: #e60808;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  top: 25px;
+  left: 25px;
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .phone_vr_img_circle .link {
@@ -55,15 +108,100 @@
   touch-action: manipulation;
   background-color: transparent;
 }
-.phone_vr_img_circle .zalo_image {
+.phone_vr_img_circle .image {
   max-height: 25px;
   max-width: 27px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transition: opacity 1s;
+  top: 20%;
+  left: 20%;
   opacity: 1;
-  transition: opacity 1s;
-  opacity: 1;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
   border-style: none;
+  animation: left-right 0.5s ease infinite;
+}
+
+.fb_vr_circle_fill {
+  box-shadow: 0 0 0 0 #2196f3;
+  background-color: rgba(33, 150, 243, 0.7);
+  width: 65px;
+  height: 65px;
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transition: all 0.5s;
+  transform-origin: 50% 50%;
+  animation: zoom-in-zoom-out 2s infinite cubic-bezier(0.36, 0.11, 0.89, 0.32);
+}
+
+.fb_vr_img_circle {
+  background-color: #2196f3;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  top: 25px;
+  left: 25px;
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.fb_vr_img_circle .link {
+  display: block;
+  line-height: 37px;
+  text-decoration: none;
+  touch-action: manipulation;
+  background-color: transparent;
+}
+.fb_vr_img_circle .image {
+  max-height: 25px;
+  max-width: 27px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  opacity: 1;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  border-style: none;
+  animation: left-right 0.5s ease infinite;
+}
+
+.vr_circle_fill_first {
+  animation-delay: -3s;
+}
+.vr_circle_fill_second {
+  animation-delay: -1s;
+}
+.vr_circle_fill_third {
+  animation-delay: 0s;
+}
+
+@keyframes zoom-in-zoom-out {
+  from {
+    transform: scale(0.5, 0.5);
+    opacity: 0.5;
+  }
+  to {
+    transform: scale(1.5, 1.5);
+    opacity: 0;
+  }
+}
+
+@keyframes left-right {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+
+  100% {
+    transform: rotate(0 deg);
+  }
 }

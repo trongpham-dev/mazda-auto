@@ -2,6 +2,7 @@ import { cars } from "../../data/dump.js";
 import styles from "./Header.module.css";
 import Image, { StaticImageData } from "next/image.js";
 import { useState } from "react";
+import Link from "next/link.js";
 
 interface Logo {
   logoURL: string | StaticImageData;
@@ -59,13 +60,14 @@ export default function Header() {
               <div className={styles.sub_menu_wrapper}>
                 <ul className={styles.sub_menu} key="submenu">
                   {cars?.map((car) => (
-                    <>
-                      <li className={styles.sub_item} key={car}>
-                        <a className={styles.link} href="/">
-                          {car}
-                        </a>
-                      </li>
-                    </>
+                    <li className={styles.sub_item} key={car.id}>
+                      <Link
+                        href={{ pathname: car.path, query: { id: car.id } }}
+                        legacyBehavior
+                      >
+                        <a className={styles.link}>{car.name}</a>
+                      </Link>
+                    </li>
                   ))}
                 </ul>
               </div>
@@ -74,13 +76,14 @@ export default function Header() {
               <div className={styles.vertical_sub_menu_wrapper}>
                 <ul className={styles.vertical_sub_menu} key="submenu">
                   {cars?.map((car) => (
-                    <>
-                      <li className={styles.sub_item} key={car}>
-                        <a className={styles.link} href="/">
-                          {car}
-                        </a>
-                      </li>
-                    </>
+                    <li className={styles.sub_item} key={car.id}>
+                      <Link
+                        href={{ pathname: car.path, query: { id: car.id } }}
+                        legacyBehavior
+                      >
+                        <a className={styles.link}>{car.name}</a>
+                      </Link>
+                    </li>
                   ))}
                 </ul>
               </div>

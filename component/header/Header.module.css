@@ -110,17 +110,16 @@
     top: 0;
     left: 0;
     width: 100%;
-    opacity: 0.8;
+    z-index: 1;
+    opacity: 1;
   }
 
   .sub_menu {
     display: none;
   }
 
-  .has_sub_menu:hover .sub_menu_wrapper > .sub_menu {
-    display: block;
-    position: relative;
-    text-align: center;
+  .vertical_sub_menu {
+    line-height: 30px;
   }
 
   .hamburger_icon {

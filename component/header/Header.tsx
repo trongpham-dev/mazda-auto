@@ -13,6 +13,13 @@ export default function Header() {
   function onToggleClick() {
     setToggle(!toggle);
   }
+
+  const [isOpen, setIsopen] = useState(false);
+
+  const toggleDropDown = () => {
+    setIsopen((isOpen) => !isOpen);
+  };
+
   const logoImage: Logo = {
     logoURL: "/mazda-logo.jpg",
     alt: "XE MAZDA",
@@ -41,7 +48,11 @@ export default function Header() {
                 TRANG CHỦ
               </a>
             </li>
-            <li className={`${styles.item} ${styles.has_sub_menu}`} key="model">
+            <li
+              className={`${styles.item} ${styles.has_sub_menu}`}
+              onClick={toggleDropDown}
+              key="model"
+            >
               <a className={styles.link} tabIndex={0}>
                 MẪU XE
               </a>
@@ -59,6 +70,21 @@ export default function Header() {
                 </ul>
               </div>
             </li>
+            {isOpen && (
+              <div className={styles.vertical_sub_menu_wrapper}>
+                <ul className={styles.vertical_sub_menu} key="submenu">
+                  {cars?.map((car) => (
+                    <>
+                      <li className={styles.sub_item} key={car}>
+                        <a className={styles.link} href="/">
+                          {car}
+                        </a>
+                      </li>
+                    </>
+                  ))}
+                </ul>
+              </div>
+            )}
             <li className={styles.item} key="contact">
               <a className={styles.link} href="/">
                 LIÊN HỆ

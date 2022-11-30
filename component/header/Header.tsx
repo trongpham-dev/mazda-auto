@@ -3,6 +3,7 @@ import styles from "./Header.module.css";
 import Image, { StaticImageData } from "next/image.js";
 import { useState } from "react";
 import Link from "next/link.js";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 interface Logo {
   logoURL: string | StaticImageData;
@@ -41,7 +42,7 @@ export default function Header() {
         </div>
         <div className={styles.menu_wrapper}>
           <ul
-            className={toggle ? `${styles.open_menu}` : `${styles.menu}`}
+            className={toggle ? `${styles.openn_menu}` : `${styles.menu}`}
             key="menu"
           >
             <li className={styles.item} key="home">
@@ -61,12 +62,12 @@ export default function Header() {
                 <ul className={styles.sub_menu} key="submenu">
                   {cars?.map((car) => (
                     <li className={styles.sub_item} key={car.id}>
-                      <Link
-                        href={{ pathname: car.path, query: { id: car.id } }}
-                        legacyBehavior
+                      <a
+                        href={`${car.path}?id=${car.id}`}
+                        className={styles.link}
                       >
-                        <a className={styles.link}>{car.name}</a>
-                      </Link>
+                        {car.name}
+                      </a>
                     </li>
                   ))}
                 </ul>
@@ -77,12 +78,12 @@ export default function Header() {
                 <ul className={styles.vertical_sub_menu} key="submenu">
                   {cars?.map((car) => (
                     <li className={styles.sub_item} key={car.id}>
-                      <Link
-                        href={{ pathname: car.path, query: { id: car.id } }}
-                        legacyBehavior
+                      <a
+                        href={`${car.path}?id=${car.id}`}
+                        className={styles.link}
                       >
-                        <a className={styles.link}>{car.name}</a>
-                      </Link>
+                        {car.name}
+                      </a>
                     </li>
                   ))}
                 </ul>
@@ -110,6 +111,54 @@ export default function Header() {
           </div>
         </div>
       </nav>
+      {/*mobile menu*/}
+      {toggle && (
+        <div className={styles.mobile_sidebar_content}>
+          <div className={styles.mobile_sidebar}>
+            <div className={styles.sidebar_menu}>
+              <ul className={styles.nav_vertical}>
+                <li className={styles.nav_vertical_item}>
+                  <a href="/" className={styles.nav_vertical_link}>
+                    Trang chủ
+                  </a>
+                </li>
+                <li
+                  className={`${styles.nav_vertical_item} ${styles.suv_link}`}
+                >
+                  <a href="/" className={styles.nav_vertical_link}>
+                    MAZDA SUV
+                  </a>
+                  <FontAwesomeIcon icon={"arrow-circle-down"} />
+                  <ul
+                    className={`${styles.sub_nav_vertical} ${styles.suv_nav_vertical}`}
+                  >
+                    <li className={styles.nav_vertical_item}>
+                      <a href="/" className={styles.nav_vertical_link}>
+                        Mazda CX3
+                      </a>
+                    </li>
+                    <li className={styles.nav_vertical_item}>
+                      <a href="/" className={styles.nav_vertical_link}>
+                        Mazda CX30
+                      </a>
+                    </li>
+                    <li className={styles.nav_vertical_item}>
+                      <a href="/" className={styles.nav_vertical_link}>
+                        Mazda CX-5 all new
+                      </a>
+                    </li>
+                    <li className={styles.nav_vertical_item}>
+                      <a href="/" className={styles.nav_vertical_link}>
+                        Mazda CX-8
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      )}
     </header>
   );
 }

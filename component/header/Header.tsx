@@ -16,7 +16,7 @@ export default function Header() {
   }
 
   const logoImage: Logo = {
-    logoURL: "/mazda-logo.jpg",
+    logoURL: "/mazda.jpg",
     alt: "XE MAZDA",
   };
   return (

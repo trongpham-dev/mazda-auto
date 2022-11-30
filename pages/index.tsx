@@ -90,8 +90,8 @@ export default function Home() {
                       <a>
                         <Image
                           src={car.productImage}
-                          width={800}
-                          height={450}
+                          width={380}
+                          height={213}
                           alt={car.productName}
                         />
                       </a>

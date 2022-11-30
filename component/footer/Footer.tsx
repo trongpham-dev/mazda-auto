@@ -61,7 +61,7 @@ export default function Footer() {
                   <div className={styles.text_2_wrapper}>
                     <p className={styles.text_2}>Hotline: 033 339 9053</p>
                     <p className={styles.text_2}>
-                      Email: trongdeptraivailol@gmail.com
+                      Email: nguyenminhbao1@thaco.com
                     </p>
                   </div>
                 </div>

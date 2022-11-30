@@ -1,0 +1,69 @@
+.button_contact {
+  transform: scale(1.1);
+  position: fixed;
+  bottom: 0;
+  z-index: 99999;
+}
+.phone_vr {
+  position: relative;
+  visibility: visible;
+  background-color: transparent;
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  z-index: 11;
+  transition: visibility 0.5s;
+  left: 0;
+  bottom: 0;
+  display: block;
+}
+
+.phone_vr_circle_fill {
+  box-shadow: 0 0 0 0 #2196f3;
+  background-color: rgba(33, 150, 243, 0.7);
+  width: 65px;
+  height: 65px;
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transition: all 0.5s;
+  transform-origin: 50% 50%;
+  animation: zoom 1.3s infinite;
+}
+
+.phone_vr_img_circle {
+  background-color: #2196f3;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  top: 25px;
+  left: 25px;
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  animation: phone-vr-circle-fill 1s infinite ease-in-out;
+}
+
+.phone_vr_img_circle .link {
+  display: block;
+  line-height: 37px;
+  text-decoration: none;
+  touch-action: manipulation;
+  background-color: transparent;
+}
+.phone_vr_img_circle .zalo_image {
+  max-height: 25px;
+  max-width: 27px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: opacity 1s;
+  opacity: 1;
+  transition: opacity 1s;
+  opacity: 1;
+  border-style: none;
+}

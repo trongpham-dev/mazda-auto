@@ -2,8 +2,8 @@ import { cars } from "../../data/dump.js";
 import styles from "./Header.module.css";
 import Image, { StaticImageData } from "next/image.js";
 import { useState } from "react";
-import Link from "next/link.js";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Sidenav, Nav, Navbar } from "rsuite";
+import "rsuite/dist/rsuite.min.css";
 
 interface Logo {
   logoURL: string | StaticImageData;
@@ -28,135 +28,91 @@ export default function Header() {
   };
   return (
     <header className={styles.header}>
-      <nav className={styles.nav_bar}>
-        <div className={styles.logo_wrapper}>
-          <a className={styles.link} href="/">
-            <Image
-              src={logoImage.logoURL}
-              width={80}
-              height={80}
-              className={styles.logo_img}
-              alt={logoImage.alt}
-            />
-          </a>
-        </div>
-        <div className={styles.menu_wrapper}>
-          <ul
-            className={toggle ? `${styles.openn_menu}` : `${styles.menu}`}
-            key="menu"
-          >
-            <li className={styles.item} key="home">
-              <a className={styles.link} href="/">
-                TRANG CHỦ
-              </a>
-            </li>
-            <li
-              className={`${styles.item} ${styles.has_sub_menu}`}
-              onClick={toggleDropDown}
-              key="model"
-            >
-              <a className={styles.link} tabIndex={0}>
-                MẪU XE
-              </a>
-              <div className={styles.sub_menu_wrapper}>
-                <ul className={styles.sub_menu} key="submenu">
-                  {cars?.map((car) => (
-                    <li className={styles.sub_item} key={car.id}>
-                      <a
-                        href={`${car.path}?id=${car.id}`}
-                        className={styles.link}
-                      >
-                        {car.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </li>
-            {isOpen && (
-              <div className={styles.vertical_sub_menu_wrapper}>
-                <ul className={styles.vertical_sub_menu} key="submenu">
-                  {cars?.map((car) => (
-                    <li className={styles.sub_item} key={car.id}>
-                      <a
-                        href={`${car.path}?id=${car.id}`}
-                        className={styles.link}
-                      >
-                        {car.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-            <li className={styles.item} key="contact">
-              <a className={styles.link} href="/">
-                LIÊN HỆ
-              </a>
-            </li>
-          </ul>
-          <div
-            className={styles.hamburger_icon}
-            onClick={() => onToggleClick()}
-          >
-            <div
-              className={toggle ? `${styles.open_bar1}` : `${styles.bar1}`}
-            ></div>
-            <div
-              className={toggle ? `${styles.open_bar2}` : `${styles.bar2}`}
-            ></div>
-            <div
-              className={toggle ? `${styles.open_bar3}` : `${styles.bar3}`}
-            ></div>
-          </div>
-        </div>
-      </nav>
+      <div className={styles.logo_wrapper}>
+        <a className={styles.link} href="/">
+          <Image
+            src={logoImage.logoURL}
+            width={80}
+            height={80}
+            className={styles.logo_img}
+            alt={logoImage.alt}
+          />
+        </a>
+      </div>
+      <div className={styles.menu_wrapper}>
+        <Navbar classPrefix={styles.nav_bar}>
+          <Nav>
+            <Nav.Item eventKey="1">TRANG CHỦ</Nav.Item>
+            <Nav.Menu eventKey="2" title="MAZDA SUV">
+              <Nav.Item eventKey="2-1">
+                <a href="/o-to/mazda?id=mazda-cx3">Mazda CX3</a>
+              </Nav.Item>
+              <Nav.Item eventKey="2-2" href="/o-to/mazda?id=mazda-cx30">
+                <a href="/o-to/mazda?id=mazda-cx30">Mazda CX30</a>
+              </Nav.Item>
+              <Nav.Item eventKey="2-3">
+                <a href="/o-to/mazda?id=mazda-cx5">Mazda CX5 all new</a>
+              </Nav.Item>
+              <Nav.Item eventKey="2-4" href="/o-to/mazda?id=mazda-cx8">
+                Mazda CX8
+              </Nav.Item>
+            </Nav.Menu>
+            <Nav.Menu eventKey="3" title="MAZDA SEDAN">
+              <Nav.Item eventKey="3-1" href="/o-to/mazda?id=mazda-2">
+                All-New Mazda 2
+              </Nav.Item>
+              <Nav.Item eventKey="3-2" href="/o-to/mazda?id=mazda-3">
+                All-New Mazda 3
+              </Nav.Item>
+              <Nav.Item eventKey="3-3" href="/o-to/mazda?id=mazda-6">
+                All-New Mazda 6
+              </Nav.Item>
+            </Nav.Menu>
+            <Nav.Menu eventKey="4" title="MAZDA BÁN TẢI">
+              <Nav.Item eventKey="4-1" href="/o-to/mazda?id=mazda-bt-50">
+                Mazda BT-50
+              </Nav.Item>
+            </Nav.Menu>
+            <Nav.Item eventKey="5">LIÊN HỆ</Nav.Item>
+          </Nav>
+        </Navbar>
+      </div>
+      <div className={styles.hamburger_icon} onClick={() => onToggleClick()}>
+        <div
+          className={toggle ? `${styles.open_bar1}` : `${styles.bar1}`}
+        ></div>
+        <div
+          className={toggle ? `${styles.open_bar2}` : `${styles.bar2}`}
+        ></div>
+        <div
+          className={toggle ? `${styles.open_bar3}` : `${styles.bar3}`}
+        ></div>
+      </div>
       {/*mobile menu*/}
       {toggle && (
         <div className={styles.mobile_sidebar_content}>
-          <div className={styles.mobile_sidebar}>
-            <div className={styles.sidebar_menu}>
-              <ul className={styles.nav_vertical}>
-                <li className={styles.nav_vertical_item}>
-                  <a href="/" className={styles.nav_vertical_link}>
-                    Trang chủ
-                  </a>
-                </li>
-                <li
-                  className={`${styles.nav_vertical_item} ${styles.suv_link}`}
-                >
-                  <a href="/" className={styles.nav_vertical_link}>
-                    MAZDA SUV
-                  </a>
-                  <FontAwesomeIcon icon={"arrow-circle-down"} />
-                  <ul
-                    className={`${styles.sub_nav_vertical} ${styles.suv_nav_vertical}`}
-                  >
-                    <li className={styles.nav_vertical_item}>
-                      <a href="/" className={styles.nav_vertical_link}>
-                        Mazda CX3
-                      </a>
-                    </li>
-                    <li className={styles.nav_vertical_item}>
-                      <a href="/" className={styles.nav_vertical_link}>
-                        Mazda CX30
-                      </a>
-                    </li>
-                    <li className={styles.nav_vertical_item}>
-                      <a href="/" className={styles.nav_vertical_link}>
-                        Mazda CX-5 all new
-                      </a>
-                    </li>
-                    <li className={styles.nav_vertical_item}>
-                      <a href="/" className={styles.nav_vertical_link}>
-                        Mazda CX-8
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
+          <Sidenav defaultOpenKeys={["3", "4"]}>
+            <Sidenav.Body>
+              <Nav activeKey="1">
+                <Nav.Item eventKey="1">TRANG CHỦ</Nav.Item>
+                <Nav.Menu eventKey="2" title="MAZDA SUV">
+                  <Nav.Item eventKey="2-1">Mazda CX3</Nav.Item>
+                  <Nav.Item eventKey="2-2">Mazda CX30</Nav.Item>
+                  <Nav.Item eventKey="2-3">Mazda CX5 all new</Nav.Item>
+                  <Nav.Item eventKey="2-4">Mazda CX8</Nav.Item>
+                </Nav.Menu>
+                <Nav.Menu eventKey="3" title="MAZDA SEDAN">
+                  <Nav.Item eventKey="3-1">All-New Mazda 2</Nav.Item>
+                  <Nav.Item eventKey="3-2">All-New Mazda 3</Nav.Item>
+                  <Nav.Item eventKey="3-3">All-New Mazda 6</Nav.Item>
+                </Nav.Menu>
+                <Nav.Menu eventKey="4" title="MAZDA BÁN TẢI">
+                  <Nav.Item eventKey="4-1">Mazda BT-50</Nav.Item>
+                </Nav.Menu>
+                <Nav.Item eventKey="5">LIÊN HỆ</Nav.Item>
+              </Nav>
+            </Sidenav.Body>
+          </Sidenav>
         </div>
       )}
     </header>

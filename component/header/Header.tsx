@@ -17,6 +17,8 @@ export default function Header() {
         <a className={styles.link} href="/">
           <Image
             src="https://main.d28u7m8fcyk6b7.amplifyapp.com/mazda.jpg"
+            width={80}
+            height={56}
             className={styles.logo_img}
             alt={logo.alt}
           />

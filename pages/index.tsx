@@ -2,43 +2,26 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
-import { product_list } from "../data/type";
+import Car, { product_list } from "../data/type";
 import Link from "next/link";
 import HeadSeo from "../component/seo/HeadSeo";
 import MetaData from "../data/meta";
-import SliderImage from "../data/slider";
+import SliderImage, { sliderImages } from "../data/slider";
 
 let metaData: MetaData = {
   title: "Mazda Bình Dương",
-  description: "Xe mazda tại bình dương giá tốt",
+  description:
+    "Showroom chính hãng xe ôtô Mazda tại Bình Dương đầy đủ các dòng xe Mazda mới 2022, đăng ký báo giá xe Mazda và lái thử trực tiếp. | Mazda Bình Dương",
   canonicalUrl: "https://main.d28u7m8fcyk6b7.amplifyapp.com",
   ogType: "Website",
   ogImageUrl: "https://main.d28u7m8fcyk6b7.amplifyapp.com/cx-5-ngoai-that.jpg",
 };
 
-let sliderImages: SliderImage[] = [
-  {
-    imgUrl: "/slide1.jpg",
-    alt: "MAZDA CX-5 2022",
-  },
-  {
-    imgUrl: "/slide1.jpg",
-    alt: "MAZDA CX-30 2022",
-  },
-  // {
-  //   imgUrl: "/slide/mazda-2.jpg",
-  //   alt: "MAZDA 2 2022",
-  // },
-  // {
-  //   imgUrl: "/slide/mazda-3.jpg",
-  //   alt: "MAZDA 3 2022",
-  // },
-  // {
-  //   imgUrl: "/slide/mazda-6.jpg",
-  //   alt: "MAZDA 6 2022",
-  // },
-];
-export default function Home() {
+interface Props {
+  carList: Car[];
+  sliderImages: SliderImage[];
+}
+export default function Home(props: Props) {
   return (
     <>
       <HeadSeo
@@ -57,7 +40,7 @@ export default function Home() {
             transitionTime={1000}
             showThumbs={false}
           >
-            {sliderImages?.map((item, key) => (
+            {props.sliderImages?.map((item, key) => (
               <div className={styles.slide_image} key={key}>
                 <Image
                   src={item.imgUrl}
@@ -75,7 +58,7 @@ export default function Home() {
               <h2 className={styles.intro_text}>CÁC DÒNG XE MAZDA</h2>
             </div>
             <div className={styles.product_list}>
-              {product_list.map((car) => (
+              {props.carList.map((car) => (
                 <div className={styles.product} key={car.productId}>
                   <div className={styles.product_image}>
                     <Link
@@ -111,4 +94,13 @@ export default function Home() {
       </div>
     </>
   );
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      carList: product_list,
+      sliderImages: sliderImages,
+    },
+  };
 }

@@ -33,6 +33,9 @@
   width: 380px;
   height: 213px;
 }
+.intro_text {
+  font-size: 25px;
+}
 /* mobile menu */
 @media only screen and (max-width: 600px) {
   .product_list {

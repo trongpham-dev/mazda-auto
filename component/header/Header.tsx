@@ -24,7 +24,7 @@ export default function Header() {
       <div className={styles.logo_wrapper}>
         <a className={styles.link} href="/">
           <Image
-            src={logoImage.logoURL}
+            src="/mazda.jpg"
             width={80}
             height={80}
             className={styles.logo_img}
@@ -35,12 +35,16 @@ export default function Header() {
       <div className={styles.menu_wrapper}>
         <Navbar classPrefix={styles.nav_bar}>
           <Nav>
-            <Nav.Item eventKey="1">TRANG CHỦ</Nav.Item>
-            <Nav.Menu eventKey="2" title="MAZDA SUV">
+            <Nav.Item eventKey="1" href="/" className={styles.link_item}>
+              TRANG CHỦ
+            </Nav.Item>
+            <Nav.Menu
+              eventKey="2"
+              title="MAZDA SUV"
+              className={styles.link_dropdown}
+            >
               <Nav.Item eventKey="2-1">
-                <a className={styles.link} href="/o-to/mazda?id=mazda-cx3">
-                  Mazda CX3
-                </a>
+                <a className={styles.link}>Mazda CX3</a>
               </Nav.Item>
               <Nav.Item eventKey="2-2">
                 <a className={styles.link} href="/o-to/mazda?id=mazda-cx30">
@@ -58,7 +62,11 @@ export default function Header() {
                 </a>
               </Nav.Item>
             </Nav.Menu>
-            <Nav.Menu eventKey="3" title="MAZDA SEDAN">
+            <Nav.Menu
+              eventKey="3"
+              title="MAZDA SEDAN"
+              className={styles.link_dropdown}
+            >
               <Nav.Item eventKey="3-1">
                 <a className={styles.link} href="/o-to/mazda?id=mazda-2">
                   All-New Mazda 2
@@ -75,14 +83,20 @@ export default function Header() {
                 </a>
               </Nav.Item>
             </Nav.Menu>
-            <Nav.Menu eventKey="4" title="MAZDA BÁN TẢI">
+            <Nav.Menu
+              eventKey="4"
+              title="MAZDA BÁN TẢI"
+              className={styles.link_dropdown}
+            >
               <Nav.Item eventKey="4-1">
                 <a className={styles.link} href="/o-to/mazda?id=mazda-bt-50">
                   Mazda BT-50
                 </a>
               </Nav.Item>
             </Nav.Menu>
-            <Nav.Item eventKey="5">LIÊN HỆ</Nav.Item>
+            <Nav.Item eventKey="5" className={styles.link_item}>
+              LIÊN HỆ
+            </Nav.Item>
           </Nav>
         </Navbar>
       </div>
@@ -103,7 +117,9 @@ export default function Header() {
           <Sidenav>
             <Sidenav.Body>
               <Nav activeKey="1">
-                <Nav.Item eventKey="1">TRANG CHỦ</Nav.Item>
+                <Nav.Item eventKey="1" href="/">
+                  TRANG CHỦ
+                </Nav.Item>
                 <Nav.Menu eventKey="2" title="MAZDA SUV">
                   <Nav.Item eventKey="2-1" href="/o-to/mazda?id=mazda-cx3">
                     Mazda CX3

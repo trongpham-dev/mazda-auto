@@ -29,6 +29,14 @@
   color: #555;
 }
 
+.link_item:hover {
+  color: rgb(207, 204, 204);
+}
+
+.link_dropdown:hover a {
+  color: rgb(207, 204, 204) !important;
+}
+
 .hamburger_icon {
   margin: auto 0;
   display: none;

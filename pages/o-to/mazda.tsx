@@ -65,7 +65,7 @@ function renderDetail(carDetail: CarDetail, screenSize: number) {
           <div className={styles.car_infor_wrapper}>
             <div className={styles.car_image}>
               <ImageGallery
-                thumbnailPosition={screenSize < 768 ? "left" : "bottom"}
+                thumbnailPosition={screenSize > 768 ? "bottom" : "left"}
                 items={carDetail.carImage}
                 showNav={false}
               />

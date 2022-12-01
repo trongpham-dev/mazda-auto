@@ -1,9 +1,9 @@
 import styles from "./Header.module.css";
-import Image, { StaticImageData } from "next/image.js";
+import Image from "next/image.js";
 import { useState } from "react";
 import { Sidenav, Nav, Navbar } from "rsuite";
 import "rsuite/dist/rsuite.min.css";
-import logo from "../../public/mazda.jpg";
+import { logo } from "../../data/logo";
 
 export default function Header() {
   const [toggle, setToggle] = useState(false);
@@ -16,9 +16,11 @@ export default function Header() {
       <div className={styles.logo_wrapper}>
         <a className={styles.link} href="/">
           <Image
-            src={logo}
+            src={logo.imageUrl}
+            width={80}
+            height={56}
             className={styles.logo_img}
-            alt="Mazda Binh Duong"
+            alt={logo.alt}
           />
         </a>
       </div>

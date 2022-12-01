@@ -24,7 +24,7 @@ export default function Header() {
       <div className={styles.logo_wrapper}>
         <a className={styles.link} href="/">
           <Image
-            src="/mazda.jpg"
+            src={"/mazda.jpg"}
             width={80}
             height={80}
             className={styles.logo_img}
@@ -44,21 +44,23 @@ export default function Header() {
               className={styles.link_dropdown}
             >
               <Nav.Item eventKey="2-1">
-                <a className={styles.link}>Mazda CX3</a>
+                <a className={styles.link} href="/o-to/mazda?id=mazda-cx3">
+                  All-New Mazda CX3
+                </a>
               </Nav.Item>
               <Nav.Item eventKey="2-2">
                 <a className={styles.link} href="/o-to/mazda?id=mazda-cx30">
-                  Mazda CX30
+                  All-New Mazda CX30
                 </a>
               </Nav.Item>
               <Nav.Item eventKey="2-3">
                 <a className={styles.link} href="/o-to/mazda?id=mazda-cx5">
-                  Mazda CX5 all new
+                  All-New Mazda CX5
                 </a>
               </Nav.Item>
               <Nav.Item eventKey="2-4">
                 <a className={styles.link} href="/o-to/mazda?id=mazda-cx8">
-                  Mazda CX8
+                  All-New Mazda CX8
                 </a>
               </Nav.Item>
             </Nav.Menu>
@@ -90,7 +92,7 @@ export default function Header() {
             >
               <Nav.Item eventKey="4-1">
                 <a className={styles.link} href="/o-to/mazda?id=mazda-bt-50">
-                  Mazda BT-50
+                  All-New Mazda BT-50
                 </a>
               </Nav.Item>
             </Nav.Menu>
@@ -122,16 +124,16 @@ export default function Header() {
                 </Nav.Item>
                 <Nav.Menu eventKey="2" title="MAZDA SUV">
                   <Nav.Item eventKey="2-1" href="/o-to/mazda?id=mazda-cx3">
-                    Mazda CX3
+                    All-New Mazda CX3
                   </Nav.Item>
                   <Nav.Item eventKey="2-2" href="/o-to/mazda?id=mazda-cx30">
-                    Mazda CX30
+                    All-New Mazda CX30
                   </Nav.Item>
                   <Nav.Item eventKey="2-3" href="/o-to/mazda?id=mazda-cx5">
-                    Mazda CX5 all new
+                    All-New Mazda CX5 all new
                   </Nav.Item>
                   <Nav.Item eventKey="2-4" href="/o-to/mazda?id=mazda-cx8">
-                    Mazda CX8
+                    All-New Mazda CX8
                   </Nav.Item>
                 </Nav.Menu>
                 <Nav.Menu eventKey="3" title="MAZDA SEDAN">

@@ -33,7 +33,7 @@
   color: rgb(207, 204, 204);
 }
 
-.link_dropdown:hover a {
+.link_dropdown a:first-child:hover {
   color: rgb(207, 204, 204) !important;
 }
 

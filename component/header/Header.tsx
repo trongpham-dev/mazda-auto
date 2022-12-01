@@ -3,11 +3,7 @@ import Image, { StaticImageData } from "next/image.js";
 import { useState } from "react";
 import { Sidenav, Nav, Navbar } from "rsuite";
 import "rsuite/dist/rsuite.min.css";
-
-interface Logo {
-  logoURL: string | StaticImageData;
-  alt: string;
-}
+import logo from "../../public/mazda.jpg";
 
 export default function Header() {
   const [toggle, setToggle] = useState(false);
@@ -15,20 +11,14 @@ export default function Header() {
     setToggle(!toggle);
   }
 
-  const logoImage: Logo = {
-    logoURL: "/mazda.jpg",
-    alt: "XE MAZDA",
-  };
   return (
     <header className={styles.header}>
       <div className={styles.logo_wrapper}>
         <a className={styles.link} href="/">
           <Image
-            src={"/mazda.jpg"}
-            width={80}
-            height={80}
+            src={logo}
             className={styles.logo_img}
-            alt={logoImage.alt}
+            alt="Mazda Binh Duong"
           />
         </a>
       </div>

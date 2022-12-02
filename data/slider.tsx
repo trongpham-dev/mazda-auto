@@ -12,14 +12,14 @@ export let sliderImages: SliderImage[] = [
   },
   {
     imgUrl: "/slide/mazda-cx5.jpg",
-    alt: "MAZDA CX5 2022",
+    alt: "Xe MAZDA CX5 2022",
   },
   {
     imgUrl: "/slide/mazda-suv-sedan.jpg",
-    alt: "MAZDA SEDAN SUV 2022",
+    alt: "Xe MAZDA SEDAN SUV 2022",
   },
   {
     imgUrl: "/slide/mazda.jpg",
-    alt: "MAZDA 2022",
+    alt: "Xe MAZDA 2022",
   },
 ];

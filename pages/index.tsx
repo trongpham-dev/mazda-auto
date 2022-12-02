@@ -45,7 +45,7 @@ export default function Home(props: Props) {
                 <Image
                   src={item.imgUrl}
                   width={1920}
-                  height={500}
+                  height={700}
                   alt={item.alt}
                 />
               </div>

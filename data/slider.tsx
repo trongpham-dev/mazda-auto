@@ -7,11 +7,19 @@ export default interface SliderImage {
 
 export let sliderImages: SliderImage[] = [
   {
-    imgUrl: "/slide/mazda-sport.jpg",
-    alt: "MAZDA SPORT 2022",
+    imgUrl: "/slide/mazda-sedan.jpg",
+    alt: "Xe Mazda 2022",
   },
   {
-    imgUrl: "/slide/mazda-suv.jpg",
-    alt: "MAZDA SUV 2022",
+    imgUrl: "/slide/mazda-cx5.jpg",
+    alt: "MAZDA CX5 2022",
+  },
+  {
+    imgUrl: "/slide/mazda-suv-sedan.jpg",
+    alt: "MAZDA SEDAN SUV 2022",
+  },
+  {
+    imgUrl: "/slide/mazda.jpg",
+    alt: "MAZDA 2022",
   },
 ];

@@ -74,8 +74,8 @@ export default function SidebarContact() {
             <Image
               className={styles.image}
               src="/fb.jpg"
-              width={25}
-              height={27}
+              width={50}
+              height={50}
               alt="FB MAZDA BÌNH DƯƠNG"
             />
           </a>

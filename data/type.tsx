@@ -51,7 +51,7 @@ export let product_list: Car[] = [
     productPrice: "999.000.000đ",
   },
   {
-    productId: "mazda-bt-50",
+    productId: "mazda-bt50",
     productName: "MAZDA BT-50",
     productImage: "/bt-50.png",
     productPrice: "849.000.000đ",

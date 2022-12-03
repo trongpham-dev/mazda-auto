@@ -62,10 +62,7 @@ export default function Home(props: Props) {
                 <div className={styles.product} key={car.productId}>
                   <div className={styles.product_image}>
                     <Link
-                      href={{
-                        pathname: "/o-to/mazda",
-                        query: { id: car.productId },
-                      }}
+                      href={`/o-to/${car.productId}`}
                       className={styles.product_link}
                       key={car.productId}
                       legacyBehavior

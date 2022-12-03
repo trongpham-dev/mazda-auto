@@ -1,4 +1,3 @@
-@import "~react-image-gallery/styles/css/image-gallery.css";
 .car_detail {
   width: 100%;
 }
@@ -142,6 +141,7 @@
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  font-size: 16px;
 }
 
 @media only screen and (max-width: 600px) {

@@ -37,22 +37,22 @@ export default function Header() {
               className={styles.link_dropdown}
             >
               <Nav.Item eventKey="2-1">
-                <a className={styles.link} href="/o-to/mazda?id=mazda-cx3">
+                <a className={styles.link} href="/o-to/mazda-cx3">
                   All-New Mazda CX3
                 </a>
               </Nav.Item>
               <Nav.Item eventKey="2-2">
-                <a className={styles.link} href="/o-to/mazda?id=mazda-cx30">
+                <a className={styles.link} href="/o-to/mazda-cx30">
                   All-New Mazda CX30
                 </a>
               </Nav.Item>
               <Nav.Item eventKey="2-3">
-                <a className={styles.link} href="/o-to/mazda?id=mazda-cx5">
+                <a className={styles.link} href="/o-to/mazda-cx5">
                   All-New Mazda CX5
                 </a>
               </Nav.Item>
               <Nav.Item eventKey="2-4">
-                <a className={styles.link} href="/o-to/mazda?id=mazda-cx8">
+                <a className={styles.link} href="/o-to/mazda-cx8">
                   All-New Mazda CX8
                 </a>
               </Nav.Item>
@@ -63,17 +63,17 @@ export default function Header() {
               className={styles.link_dropdown}
             >
               <Nav.Item eventKey="3-1">
-                <a className={styles.link} href="/o-to/mazda?id=mazda-2">
+                <a className={styles.link} href="/o-to/mazda-2">
                   All-New Mazda 2
                 </a>
               </Nav.Item>
               <Nav.Item eventKey="3-2">
-                <a className={styles.link} href="/o-to/mazda?id=mazda-3">
+                <a className={styles.link} href="/o-to/mazda-3">
                   All-New Mazda 3
                 </a>
               </Nav.Item>
               <Nav.Item eventKey="3-3">
-                <a className={styles.link} href="/o-to/mazda?id=mazda-3">
+                <a className={styles.link} href="/o-to/mazda-3">
                   All-New Mazda 6
                 </a>
               </Nav.Item>
@@ -84,7 +84,7 @@ export default function Header() {
               className={styles.link_dropdown}
             >
               <Nav.Item eventKey="4-1">
-                <a className={styles.link} href="/o-to/mazda?id=mazda-bt-50">
+                <a className={styles.link} href="/o-to/mazda-bt50">
                   All-New Mazda BT-50
                 </a>
               </Nav.Item>
@@ -116,32 +116,32 @@ export default function Header() {
                   TRANG CHỦ
                 </Nav.Item>
                 <Nav.Menu eventKey="2" title="MAZDA SUV">
-                  <Nav.Item eventKey="2-1" href="/o-to/mazda?id=mazda-cx3">
+                  <Nav.Item eventKey="2-1" href="/o-to/mazda-cx3">
                     All-New Mazda CX3
                   </Nav.Item>
-                  <Nav.Item eventKey="2-2" href="/o-to/mazda?id=mazda-cx30">
+                  <Nav.Item eventKey="2-2" href="/o-to/mazda-cx30">
                     All-New Mazda CX30
                   </Nav.Item>
-                  <Nav.Item eventKey="2-3" href="/o-to/mazda?id=mazda-cx5">
+                  <Nav.Item eventKey="2-3" href="/o-to/mazda-cx5">
                     All-New Mazda CX5 all new
                   </Nav.Item>
-                  <Nav.Item eventKey="2-4" href="/o-to/mazda?id=mazda-cx8">
+                  <Nav.Item eventKey="2-4" href="/o-to/mazda-cx8">
                     All-New Mazda CX8
                   </Nav.Item>
                 </Nav.Menu>
                 <Nav.Menu eventKey="3" title="MAZDA SEDAN">
-                  <Nav.Item eventKey="3-1" href="/o-to/mazda?id=mazda-2">
+                  <Nav.Item eventKey="3-1" href="/o-to/mazda-2">
                     All-New Mazda 2
                   </Nav.Item>
-                  <Nav.Item eventKey="3-2" href="/o-to/mazda?id=mazda-3">
+                  <Nav.Item eventKey="3-2" href="/o-to/mazda-3">
                     All-New Mazda 3
                   </Nav.Item>
-                  <Nav.Item eventKey="3-3" href="/o-to/mazda?id=mazda-3">
+                  <Nav.Item eventKey="3-3" href="/o-to/mazda-3">
                     All-New Mazda 6
                   </Nav.Item>
                 </Nav.Menu>
                 <Nav.Menu eventKey="4" title="MAZDA BÁN TẢI">
-                  <Nav.Item eventKey="4-1" href="/o-to/mazda?id=mazda-bt-50">
+                  <Nav.Item eventKey="4-1" href="/o-to/mazda-bt50">
                     Mazda BT-50
                   </Nav.Item>
                 </Nav.Menu>

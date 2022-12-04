@@ -1,5 +1,5 @@
 import styles from "./Header.module.css";
-import Image from "next/image.js";
+import Image from "next/image";
 import { useState } from "react";
 import { Sidenav, Nav, Navbar } from "rsuite";
 import "rsuite/dist/rsuite.min.css";
@@ -13,11 +13,11 @@ export default function Header() {
   }
 
   return (
-    <div className={styles.header}>
+    <header className={styles.header}>
       <div className={styles.logo_wrapper}>
         <Link className={styles.link} href="/">
           <Image
-            src="https://main.d28u7m8fcyk6b7.amplifyapp.com/mazda.jpg"
+            src="https://main.d1yeafpe63cnn3.amplifyapp.com/mazda.jpg"
             width={80}
             height={56}
             className={styles.logo_img}
@@ -151,6 +151,6 @@ export default function Header() {
           </Sidenav>
         </div>
       )}
-    </div>
+    </header>
   );
 }

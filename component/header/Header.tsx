@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Sidenav, Nav, Navbar } from "rsuite";
 import "rsuite/dist/rsuite.min.css";
 import { logo } from "../../data/logo";
+import Link from "next/link";
 
 export default function Header() {
   const [toggle, setToggle] = useState(false);
@@ -12,9 +13,9 @@ export default function Header() {
   }
 
   return (
-    <header className={styles.header}>
+    <div className={styles.header}>
       <div className={styles.logo_wrapper}>
-        <a className={styles.link} href="/">
+        <Link className={styles.link} href="/">
           <Image
             src="https://main.d28u7m8fcyk6b7.amplifyapp.com/mazda.jpg"
             width={80}
@@ -22,7 +23,7 @@ export default function Header() {
             className={styles.logo_img}
             alt={logo.alt}
           />
-        </a>
+        </Link>
       </div>
       <div className={styles.menu_wrapper}>
         <Navbar classPrefix={styles.nav_bar}>
@@ -150,6 +151,6 @@ export default function Header() {
           </Sidenav>
         </div>
       )}
-    </header>
+    </div>
   );
 }

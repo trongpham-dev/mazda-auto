@@ -630,11 +630,321 @@ function RenderMazda6() {
 }
 
 function RenderMazdaCx3() {
-  return <div>sdfsd</div>;
+  return (
+    <div className={styles.description_wrapper}>
+      <div className={styles.short_video}>
+        <video width="1170" height="300" autoPlay={true} controls>
+          <source src="/detail/cx-3/cx3-clip.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          NEW MAZDA CX-3 – KHẲNG ĐỊNH ĐẲNG CẤP
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        <strong>New Mazda 3 - </strong>Lựa chọn mới trong phân khúc SUV đô thị.
+        Mẫu xe là sự kết hợp cân bằng giữa phong cách thiết năng động của mẫu xe
+        SUV và trải nghiệm lái thú vị, linh hoạt của một chiếc Sedan. Sự kết hợp
+        thú vị này sẽ mang đến nét riêng đặc trưng thể hiện cá tính và phong
+        cách tự tin của người sở hữu.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-3/cx3-ngoai-that.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX3 Ngoại Thất"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          NỘI THẤT HƯỚNG ĐẾN NGƯỜI SỬ DỤNG
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Mazda hiểu rằng không gian bên trong mỗi chiếc xe là yếu tố tạo niềm vui
+        và cảm hứng, thức tỉnh mọi giác quan người sử dụng trên mọi cung đường.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-3/cx3-noi-that.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX3 Nội Thất"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          VẬN HÀNH LINH HOẠT VÀ TIẾT KIỆM
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Hệ thống an toàn i-Activsense sử dụng các công nghệ tiên tiến để mang
+        lại cho bạn cảm giác về “giác quan thứ sáu”, giúp cảnh báo các mối nguy
+        tiềm ẩn.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-5/cx5-engine.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX3 Khung Máy"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          THIẾT KẾ ĐẦU XE ĐẬM DẤU ẤN THƯƠNG HIỆU
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Mazda CX-3 là mẫu SUV đô thị mới hướng đến các khách hàng yêu thích công
+        nghệ, đề cao tính năng an toàn.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-3/cx3-design.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX3 Thiết Kế"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          KHÔNG GIAN NỘI THẤT TIỆN NGHI VÀ HIỆN ĐẠI
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Không gian xe được sắp xếp hướng trục và đối xứng mang lại cảm giác cân
+        bằng, giao diện của các chi tiết đều hướng về phía người sử dụng giúp
+        tương tác và điều khiển dễ dàng hơn.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-3/cx3-space.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX3 Không Gian Nội Thất"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          ĐÈN PHA THÍCH ỨNG THÔNG MINH HBC
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Giúp việc lái xe ban đêm trở nên an toàn hơn bằng cách điều khiển chuyển
+        đổi chùm sáng cao thành chùm sáng thấp để bảo vệ các xe đi ngược chiều,
+        chống…
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-3/cx3-hbc.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX3 Đèn Pha Thông minh HBC"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          HỆ THỐNG CẢNH BÁO LÀN ĐƯỜNG LDWS
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Hệ thống LDWS hoạt động bằng cách nhận diện vạch kẻ đường, và phát tính
+        hiệu cảnh báo khi phát hiện người lái chuyển làn bất thường không có chủ
+        đích
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-3/cx3-ldws.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX3 Hệ Thống Cảnh Báo"
+        />
+      </div>
+    </div>
+  );
 }
 
 function RenderMazdaCx30() {
-  return <div>sdfsd</div>;
+  return (
+    <div className={styles.description_wrapper}>
+      <div className={styles.short_video}>
+        <video width="1170" height="300" autoPlay={true} controls>
+          <source src="/detail/cx-30/cx30-clip.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          NEW MAZDA CX-30 – THẾ HỆ MỚI – ĐẲNG CẤP MỚI
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        <strong>New Mazda CX-30 </strong>là mẫu SUV đầu tiên của thế hệ sản phẩm
+        thứ 7 của Mazda. Mẫu xe được trang bị nền tảng công nghệ tiên tiến và
+        hiện đại, đáp ứng nhu cầu ngày càng cao của khách hàng.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-30/cx30-ngoai-that.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX30 Ngoại Thất"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          THIẾT KẾ ĐẦU XE ĐẬM DẤU ẤN THƯƠNG HIỆU
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Mazda CX-30 tiếp tục ứng dụng triết lý thiết kế KODO mới, với các đặc
+        trưng riêng biệt của thương hiệu, mang lại niềm tự hào và đẳng cấp khác
+        biệt cho người sở hữu. Mặt ca lăng phía trước là sự kết hợp của đường
+        viền chrome biểu tượng đôi cánh của thương hiệu của Mazda, kết hợp với
+        tính hiện đại của hệ thống đèn pha công nghệ LED.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-30/cx30-head.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX30 Đầu Xe"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          THÂN XE MAZDA CX-30 THU HÚT MỌI ÁNH NHÌN
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Mazda CX-30 thiết kế nóc xe cao, mở rộng kích thước khoang cửa sổ, mang
+        lại tầm nhìn rộng và tư thế ngồi thoải mái cho người ngồi phía sau.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-30/cx30-body.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX30 Thân Xe"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          ĐUÔI XE BỀ THẾ VÀ VỮNG CHÃI
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Đuôi xe được thiết kế với triết lý đối xứng tạo cảm giác bề thế và vững
+        chãi, kết hợp cụm đèn sau LED sắc sảo và hiện đại.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-30/cx30-duoi-xe.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX30 Đuôi Xe"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          KHÔNG GIAN NỘI THẤT TIỆN NGHI VÀ HIỆN ĐẠI
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Mazda CX-30 mang đến những trải nghiệm đẳng cấp, khác biệt và đầy hứng
+        khởi với nhiều trang bị cao cấp vượt trội trong phân khúc. Nổi bật như
+        nội thất da cao cấp, điều hòa tự động 2 vùng, phanh tay điện tử tích hợp
+        chế độ giữ phanh Auto Hold, cửa sổ trời, cốp sau điều chỉnh điện. Ngoài
+        ra, xe còn được trang bị những tiện nghi hàng đầu phân khúc như màn hình
+        HUD màu hiển thị tốc độ trên kính lái, màn hình trung tâm 8.8 inch giao
+        diện tiếng Việt kết nối Apple Carplay và Android Auto, kính chiếu hậu
+        nhớ vị trí theo ghế lái và chống chói tự động bên cạnh các tính năng căn
+        bản như chỉnh điện, gập điện tự động.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-30/cx30-inside.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX30 Nội Thất"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          MAZDA CX-30 TRANG BỊ 7 TÚI KHÍ
+        </strong>
+      </h2>
+      <p className={styles.content}>Tự tin di chuyển trên mọi hành trình</p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-30/cx30-safety.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX30 Túi Khí"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          CẢNH BÁO PHƯƠNG TIỆN CẮT NGANG KHI LÙI XE RCTA
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Hệ thống cảnh báo phương tiện cắt ngang, hoạt động dựa trên bộ Radar
+        được gắn ở cản sau, hỗ trợ người lái phát hiện có phương tiện di chuyển
+        cắt ngang…
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-30/cx30-rcta.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX30 Cảnh Báo Phương Tiện Cắt Ngang"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          HỆ THỐNG HỖ TRỢ GIỮ LÀN ĐƯỜNG LAS
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Cảnh báo và tác động một lực xoay vào tay lái khi phát hiện phương tiện
+        có dấu hiệu di chuyển lệch khỏi quỹ đạo một cách không có chủ đích, giúp
+        hạn…
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-30/cx30-las.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX30 Hệ Thống giữ Làn Đường"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          LINH HOẠT VỚI KHẢ NĂNG TIẾT KIỆM NHIÊN LIỆU TỐI ƯU
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Vận hành dựa trên công nghệ SKYACTIV thế hệ mới với động cơ SkyActiv-G
+        mới được tinh chỉnh với phản ứng chân ga nhạy hơn, giúp dễ dàng điều
+        khiển xe trong đô thị. Bên cạnh đó thiết kế Piston mới: Đầu Piston
+        khuyết ở mép ngoài, giảm tiếng gõ (ồn) và độ rung. Vòng Xéc-măng mới,
+        giảm thiểu ma sát, giảm tiếng ồn cùng kim phun kiểu mới (Kiểu phun
+        sương): Nhiên liệu được phân bổ đồng đều và chính xác hơn. Hiệu năng
+        được nâng tầm: Tăng 6.2% momen xoắn ở vòng tua thấp
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-30/cx30-engine.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX30 Động Cơ"
+        />
+      </div>
+    </div>
+  );
 }
 
 function RenderMazdaCx5() {
@@ -760,9 +1070,322 @@ function RenderMazdaCx5() {
 }
 
 function RenderMazdaCx8() {
-  return <div>sdfsd</div>;
+  return (
+    <div className={styles.description_wrapper}>
+      <div className={styles.short_video}>
+        <video width="1170" height="300" autoPlay={true} controls>
+          <source src="/detail/cx-8/cx8-clip.webm" type="video/webm" />
+        </video>
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          NEW MAZDA CX-8 – KHẲNG ĐỊNH ĐẲNG CẤP
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Tại Mazda, không có chi tiết nào được xem là chi tiết nhỏ khi đề cập đến
+        quá trình tạo nên một mẫu xe. Mazda CX-8 là sự kết hợp hoàn hảo từ thiết
+        kế đến tiện nghi, công nghệ, giúp chiếc xe dễ dàng thu hút mọi ánh nhìn.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-8/cx8-ngoai-that.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX8 Ngoại Thất"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          THỔI HỒN CUỘC SỐNG VÀO THIẾT KẾ
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Thiết kế KODO của Mazda: Triết lý thiết kế của Soul Motion truyền tải
+        cảm giác về sức mạnh và năng lượng được thể hiện trong kiểu dáng thể
+        thao của Mazda CX-8, mui xe thon dài và mái nhà thon. Hiệu ứng tổng thể
+        là sự kết hợp giữa sức mạnh tổng hợp và chuyển động tức thời, tạo ra một
+        chiếc SUV 7 chỗ thực sự nổi bật.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-8/cx8-design.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX8 Thiết Kế"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          TỰ TIN TẬN HƯỞNG CẢM GIÁC LÁI
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Với New Mazda CX8, Mazda đã chủ động đưa động cơ dung tích 2.5L vượt
+        trội lên một mẫu SUV 5 chỗ khiến bất cứ ai sở hữu đều phải ngạc nhiên
+        thích thú. Kết hợp với công nghệ SkyActiv phun xăng trực tiếp độc quyền
+        do Mazda phát triển, New Mazda CX8 tự tin mang đến cho người dùng trải
+        nghiệm lái xe phấn khích đích thực, thỏa mãn những ai ưa thích cảm giác
+        lái thể thao trên một mẫu SUV đô thị.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-8/cx8-drive.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX8 Cảm giác Lái"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          CÔNG NGHỆ AN TOÀN HIỆN ĐẠI
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Với bộ tính năng an toàn i-Activsense cao cấp, New Mazda CX8 đã được các
+        tổ chức đánh giá an toàn phương tiện nghiêm ngặt như Euro NCAP hay IIHS
+        xếp hạng 5 sao (mức tối đa) về mức độ an toàn. Qua kiểm tra, New Mazda
+        CX8 hoạt động ấn tượng trong cả 4 hạng mục thử nghiệm tại Euro NCAP, bao
+        gồm: khả năng bảo vệ an toàn cho hành khách người lớn (Adult Occupant
+        Protection – AOP), bảo vệ an toàn cho trẻ em (COP), bảo vệ an toàn cho
+        người đi đường (Pedestrian safety) và các công nghệ hỗ trợ an toàn
+        (Safety Assist Technologies – SAT).
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-8/cx8-safety.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX8 Trang Bị An Toàn"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          NỘI THẤT MAZDA CX-8 ĐẲNG CẤP, SANG TRỌNG
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Mazda CX-8 là mẫu xe duy nhất phân khúc trang bị da thuộc cao cấp Nappa,
+        loại da tự nhiên, không chỉ mang đến cảm giác êm ái, mềm mại và mịn
+        màng, thoáng khí. Bên cạnh đó là các chi tiết ốp gỗ Ayous sang trọng
+        được chọn lọc và xử lý kỹ lưỡng. Tất cả hướng đến mục tiêu nâng cao đẳng
+        cấp cho người sử dụng, tôn vinh giá trị và tăng trải nghiệm cho người sở
+        hữu.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-8/cx8-noi-that.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX8 Nội Thất"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>SUV 7 CHỖ ĐÍCH THỰC</strong>
+      </h2>
+      <p className={styles.content}>
+        Mẫu SUV 7 chỗ mang đến không gian rộng rãi với hàng ghế thứ 3, tạo
+        khoảng trống giúp hành khách để chân thoải mái. Hàng ghế thứ 3 thậm chí
+        có thể đáp ứng các hành khách có chiều cao vượt trội. Việc ra vào cửa và
+        hàng ghế thứ ba cũng rất dễ dàng.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-8/cx8-suv.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX8 SUV 7 Chỗ Đích Thực"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          TRANG BỊ TIỆN NGHI HÀNG ĐẦU PHÂN KHÚC
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Mazda CX-8 sở hữu khoang lái thiết kế hiện đại, tích hợp nhiều tính năng
+        nhằm hỗ trợ tối đa người lái, giúp việc lái xe trở nên dễ dàng và bớt
+        căng thẳng. Hàng ghế trước trang bị ghế chỉnh điện, ghế lái có tính năng
+        nhớ vị trí; chức năng sưởi ghế; điều hoà tự động 3 vùng độc lập; gương
+        chống chói; Mazda Connect, DVD; phanh tay điện tử, hệ thống tự động giữ
+        phanh Auto Hold; chìa khoá thông minh, khởi động nút bấm; màn hình HUD
+        hiển thị các thông tin quan trọng ngay tầm mắt người lái; và đặc biệt là
+        hệ thống 10 loa Bose mang đến âm thanh chân thực, sống động.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-8/cx8-tech.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX8 Trang Bị Công Nghệ Cao Cấp"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          VẬN HÀNH DỄ DÀNG VỚI HỆ THỐNG SKYACTIV-VEHICLE DYNAMICS
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Hệ thống Skyactiv-Vehicle Dynamics và hệ thống kiểm soát gia tốc
+        G-Vectoring Control đều là những công nghệ tiến tiến giúp người lái kiểm
+        soát hành trình di chuyển tối ưu. Công nghệ này giúp xe duy trì sự êm ái
+        ngay cả khi ôm cua và thoát cua.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-8/cx8-architect.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX8 Hệ Thống SKYACTIV-VEHICLE DYNAMICS"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          SỨC MẠNH ĐẾN TỪ ĐỘNG CƠ
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Mazda CX-8 đạt công suất cực đại 188 mã lực tại vòng tua 6000 vòng/phút
+        và mô-men xoắn cực đại 252 Nm tại vòng tua 4000 vòng/phút.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/cx-8/cx8-engine.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA CX8 Động Cơ Mạnh Mẽ"
+        />
+      </div>
+    </div>
+  );
 }
 
 function RenderMazdaBt50() {
-  return <div>sdfsd</div>;
+  return (
+    <div className={styles.description_wrapper}>
+      <div className={styles.short_video}>
+        <video width="1170" height="300" autoPlay={true} controls>
+          <source src="/detail/bt-50/bt50-clip.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          NEW MAZDA BT-50 – KHẲNG ĐỊNH ĐẲNG CẤP
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Mazda BT-50 2022 vẫn giữ nguyên kích thước tổng thể như cũ với các thông
+        số dài x rộng x cao lần lượt tương ứng 5.280 x 1.870 x 1.800 (mm), chiều
+        dài cơ sở 3.125 mm, khoảng sáng gầm 224 mm và bán kính quay vòng 6.1 (m)
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/bt-50/bt50-ngoai-that.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA BT-50 Ngoại Thất"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          CHI TIẾT LÀM NÊN SỰ KHÁC BIỆT
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Không như những mẫu xe bán tải thiết kế chủ yếu cho nhu cầu chở hàng,
+        All New Mazda BT-50 là sự kết hợp lý tưởng giữa không gian rộng rãi,
+        thoải mái của dòng bán tải, cùng những tiện nghi hữu dụng của một chiếc
+        SUV du lịch. Khoang lái Mazda BT-50 2022 là sự kết hợp hài hòa giữa
+        những đường nét sang trọng, lịch lãm như trên các dòng xe du lịch nhưng
+        cũng rất nam tính và gọn ghẽ. Xe sử dụng tông nâu chủ đạo cũng là màu
+        duy nhất.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/bt-50/bt50-noi-that.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA BT50 Nội Thất"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>KHÔNG GIAN RỘNG RÃI</strong>
+      </h2>
+      <p className={styles.content}>
+        Khoang nội thất của bán tải Mazda BT-50 thế hệ mới là sự kết hợp hoàn
+        hảo giữa không gian rộng rãi, thoải mái của bán tải và tính tiện nghi,
+        hiện đại và thực dụng của dòng SUV.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/bt-50/bt50-space.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA BT50 Không Gian Nội Thất"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          CẢM GIÁC LÁI PHẤN KHÍCH ĐÍCH THỰC
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Tất cả 4 phiên bản All New Mazda BT-50 đều được trang bị động cơ diesel
+        1.9L tích hợp công nghệ tăng áp biến thiên cánh tiên tiến cho công suất
+        tối đa 148 mã lực và mô men xoắn cực đại 350 Nm, cùng tùy chọn hộp số tự
+        động 6 cấp hoặc số sàn 6 cấp. Về khả năng off-road, Mazda BT-50 2022 sử
+        dụng hệ dẫn động bốn bánh 4WD bán thời gian với các nấc điều chỉnh 2H,
+        4H và 4L như đa phần các mẫu bán tải khác trên thị trường và có thêm
+        khoá vi sai cầu sau hỗ trợ đắc lực cho việc off-road.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/bt-50/bt50-offroad.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA BT50 Khả Năng Vận Hành Vượt Trội"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          Hệ thống treo, khung gầm
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Phiên bản cũ của Mazda BT-50 từng sử dụng nền tảng T6 của Ford, áp dụng
+        trên Ranger. Tuy nhiên, giờ đây, Mazda đã hợp tác với Isuzu và hiện đang
+        sử dụng nền tảng của họ cho chiếc xe bán tải do họ đồng phát triển. Vì
+        vậy, BT-50 mới sẽ có những bộ phận tương tự nếu không muốn nói là giống
+        với D-Max. Điều này có nghĩa là chiếc xe bán tải mới sẽ có hệ thống treo
+        giống Isuzu D-Max mà nó dựa trên.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/bt-50/bt50-khung-gam.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA BT-50 Hệ Thống Khung Gầm Chắc Chắn"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          ĐỘNG CƠ SDiesel 1.9L MẠNH MẼ VÀ TIẾT KIỆM NHIÊN LIỆU
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Cung cấp sức mạnh cho Mazda BT-50 là động cơ Diesel 1.9L. Nó sản sinh
+        công suất cực đại 148 mã lực, mô-men xoắn 350Nm. Động cơ này được kết
+        hợp với hộp số sàn 6 cấp hoặc tự động 6 cấp. Ngoài ra, BT-50 thế hệ mới
+        còn có tùy chọn hệ thống truyền lực 4×2 hoặc 4×4
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/bt-50/bt50-engine.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA BT-50 Động Cơ Mạnh Mẽ"
+        />
+      </div>
+    </div>
+  );
 }

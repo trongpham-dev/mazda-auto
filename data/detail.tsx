@@ -278,8 +278,8 @@ export let detail: CarDetail[] = [
     carName: "NEW MAZDA CX8",
     carImage: [
       {
-        original: "/detail/cx-8/cx8-xanh.jpg",
-        thumbnail: "/detail/cx-8/cx8-xanh.jpg",
+        original: "/detail/cx-8/cx8-den.jpg",
+        thumbnail: "/detail/cx-8/cx8-den.jpg",
       },
       {
         original: "/detail/cx-8/cx8-xam.jpg",
@@ -320,28 +320,20 @@ export let detail: CarDetail[] = [
     carName: "NEW MAZDA BT-50",
     carImage: [
       {
-        original: "/detail/bt-50/bt50-xanh.jpg",
-        thumbnail: "/detail/bt-50/bt50-xanh.jpg",
+        original: "/detail/bt-50/bt50-xanh.png",
+        thumbnail: "/detail/bt-50/bt50-xanh.png",
       },
       {
-        original: "/detail/bt-50/bt50-trang.jpg",
-        thumbnail: "/detail/bt-50/bt50-trang.jpg",
+        original: "/detail/bt-50/bt50-xam.png",
+        thumbnail: "/detail/bt-50/bt50-xam.png",
       },
       {
-        original: "/detail/bt-50/bt50-nau.jpg",
-        thumbnail: "/detail/bt-50/bt50-nau.jpg",
+        original: "/detail/bt-50/bt50-trang.png",
+        thumbnail: "/detail/bt-50/bt50-trang.png",
       },
       {
-        original: "/detail/bt-50/bt50-do.jpg",
-        thumbnail: "/detail/bt-50/bt50-do.jpg",
-      },
-      {
-        original: "/detail/bt-50/bt50-den.jpg",
-        thumbnail: "/detail/bt-50/bt50-den.jpg",
-      },
-      {
-        original: "/detail/bt-50/bt50-bac.jpg",
-        thumbnail: "/detail/bt-50/bt50-bac.jpg",
+        original: "/detail/bt-50/bt50-do.png",
+        thumbnail: "/detail/bt-50/bt50-do.png",
       },
     ],
     carPrice: "639.000.000₫",

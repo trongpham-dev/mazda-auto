@@ -19,8 +19,8 @@ export let sliderImages: SliderImage[] = [
     alt: "Xe MAZDA CX5 2022",
   },
   {
-    imgUrl: "/slide/mazda-suv-sedan.jpg",
-    alt: "Xe MAZDA SEDAN SUV 2022",
+    imgUrl: "/slide/mazda-sedan.jpg",
+    alt: "Xe MAZDA 6 2022",
   },
   {
     imgUrl: "/slide/mazda-bt-50.jpg",

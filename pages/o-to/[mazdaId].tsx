@@ -69,7 +69,7 @@ function renderDetail(carDetail: CarDetail, screenSize: number) {
               </div>
               <div className={styles.car_short_description}>
                 <h4 className={styles.car_model_price}>
-                  Giá xe New Mazda CX-5
+                  Giá xe {carDetail.carName}
                 </h4>
                 {carDetail.carModel.map((car) => (
                   <p className={styles.model_name} key={car.modelName}>
@@ -1348,6 +1348,24 @@ function RenderMazdaBt50() {
       </div>
       <h2 className={styles.title}>
         <strong className={styles.title_content}>
+          CÁC CHẾ ĐỘ GÀI CẦU TRÊN BT-50
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Mazda BT-50 2022 sử dụng hệ dẫn động bốn bánh 4WD bán thời gian với các
+        nấc điều chỉnh 2H, 4H và 4L như đa phần các mẫu bán tải khác trên thị
+        trường và có thêm khoá vi sai cầu sau hỗ trợ đắc lực cho việc off-road.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/bt-50/bt50-drive-mode.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA BT50 Các chế độ gài cầu"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
           Hệ thống treo, khung gầm
         </strong>
       </h2>
@@ -1365,6 +1383,27 @@ function RenderMazdaBt50() {
           width={1170}
           height={675}
           alt="MAZDA BT-50 Hệ Thống Khung Gầm Chắc Chắn"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          TRANG BỊ HỆ THỐNG TÚI KHÍ AN TOÀN
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        All-New Mazda BT-50 trang bị 7 túi khí, bao gồm túi khí đầu gối cho tất
+        cả các phiên bản – điều này nhằm giảm áp lực quá mức từ dây đai an toàn,
+        giúp cho người sử dụng không bị trượt khỏi dây đai khi va chạm. Đây là
+        tiêu chuẩn an toàn duy nhất và vượt trội trong phân khúc bán tải hiện
+        tại. Bên cạnh đó, thân xe được sử dụng thép cường độ cao giúp gia tăng
+        độ chắc chắn của thân xe.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="/detail/bt-50/bt50-safety.jpg"
+          width={1170}
+          height={675}
+          alt="MAZDA BT-50 Hệ thống túi khí"
         />
       </div>
       <h2 className={styles.title}>

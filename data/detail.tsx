@@ -183,7 +183,7 @@ export let detail: CarDetail[] = [
         modelPrice: "659.000.000đ",
       },
       {
-        modelName: "Mazda CX-5 Premium: ",
+        modelName: "Mazda CX-3 Premium: ",
         modelPrice: "709.000.000đ",
       },
     ],
@@ -232,20 +232,12 @@ export let detail: CarDetail[] = [
         thumbnail: "/detail/cx-5/cx5-den.jpg",
       },
       {
-        original: "/detail/cx-5/cx5-nau.jpg",
-        thumbnail: "/detail/cx-5/cx5-nau.jpg",
-      },
-      {
         original: "/detail/cx-5/cx5-do.jpg",
         thumbnail: "/detail/cx-5/cx5-do.jpg",
       },
       {
         original: "/detail/cx-5/cx5-trang.jpg",
         thumbnail: "/detail/cx-5/cx5-trang.jpg",
-      },
-      {
-        original: "/detail/cx-5/cx5-vang-cat.jpg",
-        thumbnail: "/detail/cx-5/cx5-vang-cat.jpg",
       },
       {
         original: "/detail/cx-5/cx5-xam.jpg",

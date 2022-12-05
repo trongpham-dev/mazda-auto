@@ -53,7 +53,7 @@ export let product_list: Car[] = [
   {
     productId: "mazda-bt50",
     productName: "MAZDA BT-50",
-    productImage: "/detail/bt-50/bt50-no-background.png",
+    productImage: "/bt-50.png",
     productPrice: "639.000.000₫",
   },
 ];

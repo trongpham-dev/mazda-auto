@@ -29,7 +29,7 @@ export let product_list: Car[] = [
   {
     productId: "mazda-cx30",
     productName: "MAZDA CX-30",
-    productImage: "/cx-30.jpg",
+    productImage: "/cx-30.png",
     productPrice: "794.000.000₫",
   },
   {

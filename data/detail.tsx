@@ -30,27 +30,27 @@ export let detail: CarDetail[] = [
         thumbnail: "/detail/mazda-2/mazda2-xanh.jpg",
       },
     ],
-    carPrice: "454.000.000₫",
+    carPrice: "479.000.000₫",
     carModel: [
       {
         modelName: "New Mazda 2 Sedan 1.5 AT Standard(E5): ",
-        modelPrice: "454.000.000đ",
+        modelPrice: "479.000.000đ",
       },
       {
         modelName: "New Mazda 2 Sedan 1.5 Luxury(E5): ",
-        modelPrice: "524.000.000đ",
+        modelPrice: "559.000.000đ",
       },
       {
         modelName: "New Mazda 2 Sedan 1.5 Premium(E5): ",
-        modelPrice: "574.000.000₫",
+        modelPrice: "599.000.000₫",
       },
       {
         modelName: "New Mazda 2 Sport 1.5 Luxury(E5): ",
-        modelPrice: "529.000.000₫",
+        modelPrice: "574.000.000₫",
       },
       {
         modelName: "New Mazda 2 Sport 1.5 Premium(E5): ",
-        modelPrice: "579.000.000₫",
+        modelPrice: "614.000.000₫",
       },
     ],
     carVideo: "/detail/mazda-2/mazda2-clip.mp4",
@@ -84,27 +84,27 @@ export let detail: CarDetail[] = [
         thumbnail: "/detail/mazda-3/mazda3-sport-xanh.jpg",
       },
     ],
-    carPrice: "602.000.000₫",
+    carPrice: "669.000.000₫",
     carModel: [
       {
         modelName: "All New Mazda 3 1.5L Deluxe: ",
-        modelPrice: "602.000.000₫",
+        modelPrice: "669.000.000₫",
       },
       {
         modelName: "All New Mazda 3 1.5L Luxury: ",
-        modelPrice: "664.000.000₫",
+        modelPrice: "719.000.000₫",
       },
       {
         modelName: "All New Mazda 3 1.5L Premium: ",
-        modelPrice: "734.000.000₫",
+        modelPrice: "789.000.000₫",
       },
       {
         modelName: "All New Mazda 3 1.5L Sport Luxury: ",
-        modelPrice: "694.000.000₫",
+        modelPrice: "739.000.000₫",
       },
       {
         modelName: "All New Mazda 3 1.5L Sport Premium: ",
-        modelPrice: "754.000.000₫",
+        modelPrice: "789.000.000₫",
       },
     ],
     carVideo: "/detail/mazda-3/mazda3-clip.mp4",
@@ -138,23 +138,23 @@ export let detail: CarDetail[] = [
         thumbnail: "/detail/mazda-6/mazda6-xam.jpg",
       },
     ],
-    carPrice: "799.000.000₫",
+    carPrice: "889.000.000₫",
     carModel: [
       {
         modelName: "New Mazda 6 2.0L Luxury: ",
-        modelPrice: "799.000.000₫",
+        modelPrice: "889.000.000₫",
       },
       {
         modelName: "New Mazda 6 2.0L Premium: ",
-        modelPrice: "854.000.000₫",
+        modelPrice: "949.000.000₫",
       },
       {
         modelName: "New Mazda 6 2.0L Premium(GTCCC): ",
-        modelPrice: "899.000.000₫",
+        modelPrice: "999.000.000₫",
       },
       {
         modelName: "New Mazda 6 2.0L Signature Premium(GTCCC): ",
-        modelPrice: "999.000.000₫",
+        modelPrice: "1.109.000.000₫",
       },
     ],
     carVideo: "/detail/mazda-6/mazda6-clip.mp4",
@@ -172,19 +172,19 @@ export let detail: CarDetail[] = [
         thumbnail: "/detail/cx-3/cx3-trang.jpg",
       },
     ],
-    carPrice: "619.000.000₫",
+    carPrice: "649.000.000₫",
     carModel: [
       {
         modelName: "Mazda CX-3 Deluxe: ",
-        modelPrice: "619.000.000₫",
+        modelPrice: "649.000.000₫",
       },
       {
         modelName: "Mazda CX-3 Luxury: ",
-        modelPrice: "659.000.000đ",
+        modelPrice: "689.000.000đ",
       },
       {
         modelName: "Mazda CX-3 Premium: ",
-        modelPrice: "709.000.000đ",
+        modelPrice: "729.000.000đ",
       },
     ],
     carVideo: "/detail/cx-3/cx3-clip.mp4",
@@ -206,15 +206,15 @@ export let detail: CarDetail[] = [
         thumbnail: "/detail/cx-30/cx30-do.jpg",
       },
     ],
-    carPrice: "794.000.000₫",
+    carPrice: "849.000.000₫",
     carModel: [
       {
         modelName: "Mazda CX-30 Luxury(E5): ",
-        modelPrice: "794.000.000₫",
+        modelPrice: "849.000.000₫",
       },
       {
         modelName: "Mazda CX-30 Premium(E5): ",
-        modelPrice: "864.000.000đ",
+        modelPrice: "909.000.000đ",
       },
     ],
     carVideo: "/detail/cx-30/cx30-clip.mp4",
@@ -286,19 +286,19 @@ export let detail: CarDetail[] = [
         thumbnail: "/detail/cx-8/cx8-do.jpg",
       },
     ],
-    carPrice: "1.059.000.000₫",
+    carPrice: "1.079.000.000₫",
     carModel: [
       {
         modelName: "New Mazda CX-8 2.5L Luxury: ",
-        modelPrice: "1.059.000.000₫",
+        modelPrice: "1.079.000.000₫",
       },
       {
         modelName: "New Mazda CX-8 2.5L Premium: ",
-        modelPrice: "1.149.000.000₫",
+        modelPrice: "1.169.000.000₫",
       },
       {
         modelName: "New Mazda CX-8 2.5L Premium AWD: ",
-        modelPrice: "1.239.000.000₫",
+        modelPrice: "1.259.000.000₫",
       },
       {
         modelName: "New Mazda CX-8 2.5L Premium AWD-6S: ",
@@ -328,15 +328,15 @@ export let detail: CarDetail[] = [
         thumbnail: "/detail/bt-50/bt50-do.png",
       },
     ],
-    carPrice: "639.000.000₫",
+    carPrice: "659.000.000₫",
     carModel: [
       {
         modelName: "New Mazda BT-50 1.9MT 4x2(E5): ",
-        modelPrice: "639.000.000₫",
+        modelPrice: "659.000.000₫",
       },
       {
         modelName: "New Mazda BT-50 1.9AT 4x2(E5): ",
-        modelPrice: "689.000.000₫",
+        modelPrice: "709.000.000₫",
       },
       {
         modelName: "New Mazda BT-50 1.9 4x2 Luxury(E5): ",

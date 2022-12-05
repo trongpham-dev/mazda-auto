@@ -40,11 +40,7 @@ export default function SidebarContact() {
           className={`${styles.phone_vr_circle_fill} ${styles.vr_circle_fill_third}`}
         ></div>
         <div className={styles.phone_vr_img_circle}>
-          <a
-            className={styles.link}
-            target="_blank"
-            href="https://zalo.me/0333399053"
-          >
+          <a className={styles.link} target="_blank" href="tel:0393399053">
             <Image
               className={styles.image}
               src="/phone.png"

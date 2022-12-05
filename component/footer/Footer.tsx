@@ -86,7 +86,7 @@ export default function Footer() {
                     </a>
                   </div>
                   <div className={styles.social_image}>
-                    <a href="https://youtube.com">
+                    <a href="#">
                       <Image
                         src="/social/youtube.png"
                         className={styles.insta_icon}
@@ -97,7 +97,7 @@ export default function Footer() {
                     </a>
                   </div>
                   <div className={styles.social_image}>
-                    <a href="https://youtube.com">
+                    <a href="#">
                       <Image
                         src="/social/twitter.png"
                         className={styles.insta_icon}

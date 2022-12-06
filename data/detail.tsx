@@ -18,15 +18,18 @@ export let detail: CarDetail[] = [
     carName: "NEW MAZDA 2",
     carImage: [
       {
-        original: "/detail/mazda-2/mazda2-do.jpg",
+        original:
+          "https://showroomxebinhduong.com/detail/mazda-2/mazda2-do.jpg",
         thumbnail: "/detail/mazda-2/mazda2-do.jpg",
       },
       {
-        original: "/detail/mazda-2/mazda2-trang.jpg",
+        original:
+          "https://showroomxebinhduong.com/detail/mazda-2/mazda2-trang.jpg",
         thumbnail: "/detail/mazda-2/mazda2-trang.jpg",
       },
       {
-        original: "/detail/mazda-2/mazda2-xanh.jpg",
+        original:
+          "https://showroomxebinhduong.com/detail/mazda-2/mazda2-xanh.jpg",
         thumbnail: "/detail/mazda-2/mazda2-xanh.jpg",
       },
     ],
@@ -53,35 +56,47 @@ export let detail: CarDetail[] = [
         modelPrice: "614.000.000₫",
       },
     ],
-    carVideo: "/detail/mazda-2/mazda2-clip.mp4",
+    carVideo: "https://showroomxebinhduong.com/detail/mazda-2/mazda2-clip.mp4",
   },
   {
     carId: "mazda-3",
     carName: "NEW MAZDA 3",
     carImage: [
       {
-        original: "/detail/mazda-3/mazda3-do.jpg",
-        thumbnail: "/detail/mazda-3/mazda3-do.jpg",
+        original:
+          "https://showroomxebinhduong.com/detail/mazda-3/mazda3-do.jpg",
+        thumbnail:
+          "https://showroomxebinhduong.com/detail/mazda-3/mazda3-do.jpg",
       },
       {
-        original: "/detail/mazda-3/mazda3-den.jpg",
-        thumbnail: "/detail/mazda-3/mazda3-den.jpg",
+        original:
+          "https://showroomxebinhduong.com/detail/mazda-3/mazda3-den.jpg",
+        thumbnail:
+          "https://showroomxebinhduong.com/detail/mazda-3/mazda3-den.jpg",
       },
       {
-        original: "/detail/mazda-3/mazda3-xam.jpg",
-        thumbnail: "/detail/mazda-3/mazda3-xam.jpg",
+        original:
+          "https://showroomxebinhduong.com/detail/mazda-3/mazda3-xam.jpg",
+        thumbnail:
+          "https://showroomxebinhduong.com/detail/mazda-3/mazda3-xam.jpg",
       },
       {
-        original: "/detail/mazda-3/mazda3-trang.jpg",
-        thumbnail: "/detail/mazda-3/mazda3-trang.jpg",
+        original:
+          "https://showroomxebinhduong.com/detail/mazda-3/mazda3-trang.jpg",
+        thumbnail:
+          "https://showroomxebinhduong.com/detail/mazda-3/mazda3-trang.jpg",
       },
       {
-        original: "/detail/mazda-3/mazda3-sport-xam.jpg",
-        thumbnail: "/detail/mazda-3/mazda3-sport-xam.jpg",
+        original:
+          "https://showroomxebinhduong.com/detail/mazda-3/mazda3-sport-xam.jpg",
+        thumbnail:
+          "https://showroomxebinhduong.com/detail/mazda-3/mazda3-sport-xam.jpg",
       },
       {
-        original: "/detail/mazda-3/mazda3-sport-xanh.jpg",
-        thumbnail: "/detail/mazda-3/mazda3-sport-xanh.jpg",
+        original:
+          "https://showroomxebinhduong.com/detail/mazda-3/mazda3-sport-xanh.jpg",
+        thumbnail:
+          "https://showroomxebinhduong.com/detail/mazda-3/mazda3-sport-xanh.jpg",
       },
     ],
     carPrice: "669.000.000₫",
@@ -107,35 +122,47 @@ export let detail: CarDetail[] = [
         modelPrice: "789.000.000₫",
       },
     ],
-    carVideo: "/detail/mazda-3/mazda3-clip.mp4",
+    carVideo: "https://showroomxebinhduong.com/detail/mazda-3/mazda3-clip.mp4",
   },
   {
     carId: "mazda-6",
     carName: "NEW MAZDA 6",
     carImage: [
       {
-        original: "/detail/mazda-6/mazda6-bac.jpg",
-        thumbnail: "/detail/mazda-6/mazda6-bac.jpg",
+        original:
+          "https://showroomxebinhduong.com/detail/mazda-6/mazda6-bac.jpg",
+        thumbnail:
+          "https://showroomxebinhduong.com/detail/mazda-6/mazda6-bac.jpg",
       },
       {
-        original: "/detail/mazda-6/mazda6-den.jpg",
-        thumbnail: "/detail/mazda-6/mazda6-den.jpg",
+        original:
+          "https://showroomxebinhduong.com/detail/mazda-6/mazda6-den.jpg",
+        thumbnail:
+          "https://showroomxebinhduong.com/detail/mazda-6/mazda6-den.jpg",
       },
       {
-        original: "/detail/mazda-6/mazda6-nau.jpg",
-        thumbnail: "/detail/mazda-6/mazda6-nau.jpg",
+        original:
+          "https://showroomxebinhduong.com/detail/mazda-6/mazda6-nau.jpg",
+        thumbnail:
+          "https://showroomxebinhduong.com/detail/mazda-6/mazda6-nau.jpg",
       },
       {
-        original: "/detail/mazda-6/mazda6-trang.jpg",
-        thumbnail: "/detail/mazda-6/mazda6-trang.jpg",
+        original:
+          "https://showroomxebinhduong.com/detail/mazda-6/mazda6-trang.jpg",
+        thumbnail:
+          "https://showroomxebinhduong.com/detail/mazda-6/mazda6-trang.jpg",
       },
       {
-        original: "/detail/mazda-6/mazda6-vang.jpg",
-        thumbnail: "/detail/mazda-6/mazda6-vang.jpg",
+        original:
+          "https://showroomxebinhduong.com/detail/mazda-6/mazda6-vang.jpg",
+        thumbnail:
+          "https://showroomxebinhduong.com/detail/mazda-6/mazda6-vang.jpg",
       },
       {
-        original: "/detail/mazda-6/mazda6-xam.jpg",
-        thumbnail: "/detail/mazda-6/mazda6-xam.jpg",
+        original:
+          "https://showroomxebinhduong.com/detail/mazda-6/mazda6-xam.jpg",
+        thumbnail:
+          "https://showroomxebinhduong.com/detail/mazda-6/mazda6-xam.jpg",
       },
     ],
     carPrice: "889.000.000₫",
@@ -157,19 +184,19 @@ export let detail: CarDetail[] = [
         modelPrice: "1.109.000.000₫",
       },
     ],
-    carVideo: "/detail/mazda-6/mazda6-clip.mp4",
+    carVideo: "https://showroomxebinhduong.com/detail/mazda-6/mazda6-clip.mp4",
   },
   {
     carId: "mazda-cx3",
     carName: "NEW MAZDA CX3",
     carImage: [
       {
-        original: "/detail/cx-3/cx3-do.jpg",
-        thumbnail: "/detail/cx-3/cx3-do.jpg",
+        original: "https://showroomxebinhduong.com/detail/cx-3/cx3-do.jpg",
+        thumbnail: "https://showroomxebinhduong.com/detail/cx-3/cx3-do.jpg",
       },
       {
-        original: "/detail/cx-3/cx3-trang.jpg",
-        thumbnail: "/detail/cx-3/cx3-trang.jpg",
+        original: "https://showroomxebinhduong.com/detail/cx-3/cx3-trang.jpg",
+        thumbnail: "https://showroomxebinhduong.com/detail/cx-3/cx3-trang.jpg",
       },
     ],
     carPrice: "649.000.000₫",
@@ -187,23 +214,24 @@ export let detail: CarDetail[] = [
         modelPrice: "729.000.000đ",
       },
     ],
-    carVideo: "/detail/cx-3/cx3-clip.mp4",
+    carVideo: "https://showroomxebinhduong.com/detail/cx-3/cx3-clip.mp4",
   },
   {
     carId: "mazda-cx30",
     carName: "NEW MAZDA CX30",
     carImage: [
       {
-        original: "/detail/cx-30/cx30-den.jpg",
-        thumbnail: "/detail/cx-30/cx30-den.jpg",
+        original: "https://showroomxebinhduong.com/detail/cx-30/cx30-den.jpg",
+        thumbnail: "https://showroomxebinhduong.com/detail/cx-30/cx30-den.jpg",
       },
       {
-        original: "/detail/cx-30/cx30-trang.jpg",
-        thumbnail: "/detail/cx-30/cx30-trang.jpg",
+        original: "https://showroomxebinhduong.com/detail/cx-30/cx30-trang.jpg",
+        thumbnail:
+          "https://showroomxebinhduong.com/detail/cx-30/cx30-trang.jpg",
       },
       {
-        original: "/detail/cx-30/cx30-do.jpg",
-        thumbnail: "/detail/cx-30/cx30-do.jpg",
+        original: "https://showroomxebinhduong.com/detail/cx-30/cx30-do.jpg",
+        thumbnail: "https://showroomxebinhduong.com/detail/cx-30/cx30-do.jpg",
       },
     ],
     carPrice: "849.000.000₫",
@@ -217,31 +245,31 @@ export let detail: CarDetail[] = [
         modelPrice: "909.000.000đ",
       },
     ],
-    carVideo: "/detail/cx-30/cx30-clip.mp4",
+    carVideo: "https://showroomxebinhduong.com/detail/cx-30/cx30-clip.mp4",
   },
   {
     carId: "mazda-cx5",
     carName: "NEW MAZDA CX5",
     carImage: [
       {
-        original: "/detail/cx-5/cx5-xanh.jpg",
-        thumbnail: "/detail/cx-5/cx5-xanh.jpg",
+        original: "https://showroomxebinhduong.com/detail/cx-5/cx5-xanh.jpg",
+        thumbnail: "https://showroomxebinhduong.com/detail/cx-5/cx5-xanh.jpg",
       },
       {
-        original: "/detail/cx-5/cx5-den.jpg",
-        thumbnail: "/detail/cx-5/cx5-den.jpg",
+        original: "https://showroomxebinhduong.com/detail/cx-5/cx5-den.jpg",
+        thumbnail: "https://showroomxebinhduong.com/detail/cx-5/cx5-den.jpg",
       },
       {
-        original: "/detail/cx-5/cx5-do.jpg",
-        thumbnail: "/detail/cx-5/cx5-do.jpg",
+        original: "https://showroomxebinhduong.com/detail/cx-5/cx5-do.jpg",
+        thumbnail: "https://showroomxebinhduong.com/detail/cx-5/cx5-do.jpg",
       },
       {
-        original: "/detail/cx-5/cx5-trang.jpg",
-        thumbnail: "/detail/cx-5/cx5-trang.jpg",
+        original: "https://showroomxebinhduong.com/detail/cx-5/cx5-trang.jpg",
+        thumbnail: "https://showroomxebinhduong.com/detail/cx-5/cx5-trang.jpg",
       },
       {
-        original: "/detail/cx-5/cx5-xam.jpg",
-        thumbnail: "/detail/cx-5/cx5-xam.jpg",
+        original: "https://showroomxebinhduong.com/detail/cx-5/cx5-xam.jpg",
+        thumbnail: "https://showroomxebinhduong.com/detail/cx-5/cx5-xam.jpg",
       },
     ],
     carPrice: "839.000.000₫",
@@ -263,27 +291,27 @@ export let detail: CarDetail[] = [
         modelPrice: "1.059.000.000đ",
       },
     ],
-    carVideo: "/detail/cx-5/cx5-clip.mp4",
+    carVideo: "https://showroomxebinhduong.com/detail/cx-5/cx5-clip.mp4",
   },
   {
     carId: "mazda-cx8",
     carName: "NEW MAZDA CX8",
     carImage: [
       {
-        original: "/detail/cx-8/cx8-den.jpg",
-        thumbnail: "/detail/cx-8/cx8-den.jpg",
+        original: "https://showroomxebinhduong.com/detail/cx-8/cx8-den.jpg",
+        thumbnail: "https://showroomxebinhduong.com/detail/cx-8/cx8-den.jpg",
       },
       {
-        original: "/detail/cx-8/cx8-xam.jpg",
-        thumbnail: "/detail/cx-8/cx8-xam.jpg",
+        original: "https://showroomxebinhduong.com/detail/cx-8/cx8-xam.jpg",
+        thumbnail: "https://showroomxebinhduong.com/detail/cx-8/cx8-xam.jpg",
       },
       {
-        original: "/detail/cx-8/cx8-trang.jpg",
-        thumbnail: "/detail/cx-8/cx8-trang.jpg",
+        original: "https://showroomxebinhduong.com/detail/cx-8/cx8-trang.jpg",
+        thumbnail: "https://showroomxebinhduong.com/detail/cx-8/cx8-trang.jpg",
       },
       {
-        original: "/detail/cx-8/cx8-do.jpg",
-        thumbnail: "/detail/cx-8/cx8-do.jpg",
+        original: "https://showroomxebinhduong.com/detail/cx-8/cx8-do.jpg",
+        thumbnail: "https://showroomxebinhduong.com/detail/cx-8/cx8-do.jpg",
       },
     ],
     carPrice: "1.079.000.000₫",
@@ -305,27 +333,28 @@ export let detail: CarDetail[] = [
         modelPrice: "1.269.000.000₫",
       },
     ],
-    carVideo: "/detail/cx-5/cx5-clip.mp4",
+    carVideo: "https://showroomxebinhduong.com/detail/cx-5/cx5-clip.mp4",
   },
   {
     carId: "mazda-bt50",
     carName: "NEW MAZDA BT-50",
     carImage: [
       {
-        original: "/detail/bt-50/bt50-xanh.png",
-        thumbnail: "/detail/bt-50/bt50-xanh.png",
+        original: "https://showroomxebinhduong.com/detail/bt-50/bt50-xanh.png",
+        thumbnail: "https://showroomxebinhduong.com/detail/bt-50/bt50-xanh.png",
       },
       {
-        original: "/detail/bt-50/bt50-xam.png",
-        thumbnail: "/detail/bt-50/bt50-xam.png",
+        original: "https://showroomxebinhduong.com/detail/bt-50/bt50-xam.png",
+        thumbnail: "https://showroomxebinhduong.com/detail/bt-50/bt50-xam.png",
       },
       {
-        original: "/detail/bt-50/bt50-trang.png",
-        thumbnail: "/detail/bt-50/bt50-trang.png",
+        original: "https://showroomxebinhduong.com/detail/bt-50/bt50-trang.png",
+        thumbnail:
+          "https://showroomxebinhduong.com/detail/bt-50/bt50-trang.png",
       },
       {
-        original: "/detail/bt-50/bt50-do.png",
-        thumbnail: "/detail/bt-50/bt50-do.png",
+        original: "https://showroomxebinhduong.com/detail/bt-50/bt50-do.png",
+        thumbnail: "https://showroomxebinhduong.com/detail/bt-50/bt50-do.png",
       },
     ],
     carPrice: "659.000.000₫",
@@ -347,6 +376,6 @@ export let detail: CarDetail[] = [
         modelPrice: "849.000.000₫",
       },
     ],
-    carVideo: "/detail/bt-50/bt50-clip.mp4",
+    carVideo: "https://showroomxebinhduong.com/detail/bt-50/bt50-clip.mp4",
   },
 ];

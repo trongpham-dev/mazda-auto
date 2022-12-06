@@ -17,7 +17,7 @@ export default function Header() {
       <div className={styles.logo_wrapper}>
         <Link className={styles.link} href="/">
           <Image
-            src="https://main.d1yeafpe63cnn3.amplifyapp.com/mazda.jpg"
+            src="https://showroomxebinhduong.com/mazda.jpg"
             width={80}
             height={56}
             className={styles.logo_img}
@@ -89,9 +89,6 @@ export default function Header() {
                 </a>
               </Nav.Item>
             </Nav.Menu>
-            <Nav.Item eventKey="5" className={styles.link_item}>
-              LIÊN HỆ
-            </Nav.Item>
           </Nav>
         </Navbar>
       </div>
@@ -145,7 +142,6 @@ export default function Header() {
                     Mazda BT-50
                   </Nav.Item>
                 </Nav.Menu>
-                <Nav.Item eventKey="5">LIÊN HỆ</Nav.Item>
               </Nav>
             </Sidenav.Body>
           </Sidenav>

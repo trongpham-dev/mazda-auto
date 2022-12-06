@@ -35,9 +35,9 @@ function renderDetail(carDetail: CarDetail, screenSize: number) {
   let metaData: MetaData = {
     title: carDetail.carName,
     description: `${carDetail.carName} | Mazda Bình Dương `,
-    canonicalUrl: `https://main.d28u7m8fcyk6b7.amplifyapp.com/o-to/mazda?id=${carDetail.carId}`,
+    canonicalUrl: `https://showroomxebinhduong.com/o-to/mazda?id=${carDetail.carId}`,
     ogType: "image",
-    ogImageUrl: `https://main.d28u7m8fcyk6b7.amplifyapp.com/${carDetail.carImage[0]?.original}`,
+    ogImageUrl: `https://showroomxebinhduong.com/${carDetail.carImage[0]?.original}`,
   };
 
   return (
@@ -88,7 +88,7 @@ function renderDetail(carDetail: CarDetail, screenSize: number) {
                 <div className={styles.contact_infor}>
                   <a
                     rel="nofollow"
-                    href="tel:0393399053"
+                    href="tel:0878584868"
                     target="_self"
                     className={styles.phone}
                   >

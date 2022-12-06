@@ -67,7 +67,7 @@ export default function Footer() {
                     <a href="https://www.facebook.com/profile.php?id=100069266504823">
                       <Image
                         className={styles.fb_icon}
-                        src="/social/fb.png"
+                        src="https://showroomxebinhduong.com/social/fb.png"
                         width={50}
                         height={50}
                         alt="Liên lạc với chúng tôi qua Facebook"
@@ -75,9 +75,9 @@ export default function Footer() {
                     </a>
                   </div>
                   <div className={styles.social_image}>
-                    <a href="https://zalo.me/0333399053">
+                    <a href="https://zalo.me/0878584868">
                       <Image
-                        src="/zalo.png"
+                        src="https://showroomxebinhduong.com/zalo.png"
                         className={styles.zalo_icon}
                         width={50}
                         height={50}
@@ -88,22 +88,22 @@ export default function Footer() {
                   <div className={styles.social_image}>
                     <a href="#">
                       <Image
-                        src="/social/youtube.png"
+                        src="https://showroomxebinhduong.com/social/youtube.png"
                         className={styles.insta_icon}
                         width={50}
                         height={50}
-                        alt="Theo dõi chúng tôi qua Youtube "
+                        alt="Theo dõi chúng tôi qua Youtube"
                       />
                     </a>
                   </div>
                   <div className={styles.social_image}>
                     <a href="#">
                       <Image
-                        src="/social/twitter.png"
+                        src="https://showroomxebinhduong.com/social/twitter.png"
                         className={styles.insta_icon}
                         width={50}
                         height={50}
-                        alt="Theo dõi chúng tôi qua Twitter "
+                        alt="Theo dõi chúng tôi qua Twitter"
                       />
                     </a>
                   </div>

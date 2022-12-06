@@ -21,7 +21,7 @@ export default function SidebarContact() {
           >
             <Image
               className={styles.image}
-              src="/zalo.png"
+              src="https://showroomxebinhduong.com/zalo.png"
               width={25}
               height={27}
               alt="ZALO MAZDA BÌNH DƯƠNG"
@@ -43,7 +43,7 @@ export default function SidebarContact() {
           <a className={styles.link} target="_blank" href="tel:0878584868">
             <Image
               className={styles.image}
-              src="/phone.png"
+              src="https://showroomxebinhduong.com/phone.png"
               width={25}
               height={27}
               alt="SDT MAZDA BÌNH DƯƠNG"

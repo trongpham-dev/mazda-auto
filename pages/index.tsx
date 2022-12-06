@@ -12,9 +12,9 @@ let metaData: MetaData = {
   title: "Mazda Bình Dương",
   description:
     "Showroom chính hãng xe ôtô Mazda tại Bình Dương đầy đủ các dòng xe Mazda mới 2022, đăng ký báo giá xe Mazda và lái thử trực tiếp. | Mazda Bình Dương",
-  canonicalUrl: "https://main.d28u7m8fcyk6b7.amplifyapp.com",
+  canonicalUrl: "https://showroomxebinhduong.com",
   ogType: "Website",
-  ogImageUrl: "https://main.d28u7m8fcyk6b7.amplifyapp.com/cx-5-ngoai-that.jpg",
+  ogImageUrl: "https://showroomxebinhduong.com/cx-5-ngoai-that.jpg",
 };
 
 interface Props {

@@ -23,7 +23,7 @@ const HeadSeo = (props: Props) => {
       <link rel="canonical" href={props.canonicalUrl} />
       <meta
         name="google-site-verification"
-        content="google30e05b1d8fee4c7e.html"
+        content="No1cq8CAUfsPQq69CI_ic4uTCqT7K_nRaD0RdgqpdbI"
       />
       <meta charSet="utf-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />

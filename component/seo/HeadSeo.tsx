@@ -18,7 +18,7 @@ const HeadSeo = (props: Props) => {
       <link
         rel="icon"
         type="image/jpg"
-        href="https://www.showroomxebinhduong.com/mazda.jpg"
+        href="https://www.otomazdabinhduong.com/mazda.jpg"
       />
       <link rel="canonical" href={props.canonicalUrl} />
       <meta

@@ -120,7 +120,7 @@ export default function Header() {
                     All-New Mazda CX30
                   </Nav.Item>
                   <Nav.Item eventKey="2-3" href="/o-to/mazda-cx5">
-                    All-New Mazda CX5 all new
+                    All-New Mazda CX5
                   </Nav.Item>
                   <Nav.Item eventKey="2-4" href="/o-to/mazda-cx8">
                     All-New Mazda CX8

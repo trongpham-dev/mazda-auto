@@ -30,13 +30,13 @@ export default function Footer() {
             <div className={styles.col_1}>
               <div className={styles.col_1_inner}>
                 <div className={styles.text_1_wrapper}>
-                  <h2 className={styles.text1}>MAZDA VIỆT NAM </h2>
+                  <h2 className={styles.text1}>MAZDA BÌNH DƯƠNG</h2>
                 </div>
                 <div className={styles.gap_1}></div>
                 <div className={styles.text_2_wrapper}>
                   <p className={styles.text_2}>
-                    Công ty CP một thành viên Mazda Việt Nam, nhà phân phối Ủy
-                    quyền của Mazda tại Việt Nam.
+                    Đ/C: 56/9 Đại lộ Bình Dương, Thuận Giao, Thuận An, Bình
+                    Dương
                   </p>
                 </div>
                 <div className={styles.gap_2}></div>
@@ -49,7 +49,7 @@ export default function Footer() {
                 </div>
                 <div className={styles.gap_1}></div>
                 <div className={styles.text_2_wrapper}>
-                  <p className={styles.text_2}>Hotline: 033 339 9053</p>
+                  <p className={styles.text_2}>Hotline: 087 858 4868</p>
                   <p className={styles.text_2}>
                     Email: nguyenminhbao1@thaco.com
                   </p>
@@ -86,7 +86,7 @@ export default function Footer() {
                     </a>
                   </div>
                   <div className={styles.social_image}>
-                    <a href="#">
+                    <a href="https://showroomxebinhduong.com">
                       <Image
                         src="https://showroomxebinhduong.com/social/youtube.png"
                         className={styles.insta_icon}
@@ -97,7 +97,7 @@ export default function Footer() {
                     </a>
                   </div>
                   <div className={styles.social_image}>
-                    <a href="#">
+                    <a href="https://showroomxebinhduong.com">
                       <Image
                         src="https://showroomxebinhduong.com/social/twitter.png"
                         className={styles.insta_icon}

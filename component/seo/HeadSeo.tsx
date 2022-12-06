@@ -21,6 +21,10 @@ const HeadSeo = (props: Props) => {
         href="https://www.showroomxebinhduong.com/mazda.jpg"
       />
       <link rel="canonical" href={props.canonicalUrl} />
+      <meta
+        name="google-site-verification"
+        content="google30e05b1d8fee4c7e.html"
+      />
       <meta charSet="utf-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <meta name="robots" content="index, follow" />

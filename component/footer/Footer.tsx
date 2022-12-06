@@ -67,7 +67,7 @@ export default function Footer() {
                     <a href="https://www.facebook.com/profile.php?id=100069266504823">
                       <Image
                         className={styles.fb_icon}
-                        src="https://showroomxebinhduong.com/social/fb.png"
+                        src="https://www.otomazdabinhduong.com/social/fb.png"
                         width={50}
                         height={50}
                         alt="Liên lạc với chúng tôi qua Facebook"
@@ -77,7 +77,7 @@ export default function Footer() {
                   <div className={styles.social_image}>
                     <a href="https://zalo.me/0878584868">
                       <Image
-                        src="https://showroomxebinhduong.com/zalo.png"
+                        src="https://www.otomazdabinhduong.com/zalo.png"
                         className={styles.zalo_icon}
                         width={50}
                         height={50}
@@ -86,9 +86,9 @@ export default function Footer() {
                     </a>
                   </div>
                   <div className={styles.social_image}>
-                    <a href="https://showroomxebinhduong.com">
+                    <a href="https://www.otomazdabinhduong.com">
                       <Image
-                        src="https://showroomxebinhduong.com/social/youtube.png"
+                        src="https://www.otomazdabinhduong.com/social/youtube.png"
                         className={styles.insta_icon}
                         width={50}
                         height={50}
@@ -97,9 +97,9 @@ export default function Footer() {
                     </a>
                   </div>
                   <div className={styles.social_image}>
-                    <a href="https://showroomxebinhduong.com">
+                    <a href="https://www.otomazdabinhduong.com">
                       <Image
-                        src="https://showroomxebinhduong.com/social/twitter.png"
+                        src="https://www.otomazdabinhduong.com/social/twitter.png"
                         className={styles.insta_icon}
                         width={50}
                         height={50}

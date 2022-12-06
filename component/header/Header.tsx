@@ -17,7 +17,7 @@ export default function Header() {
       <div className={styles.logo_wrapper}>
         <Link className={styles.link} href="/">
           <Image
-            src="https://showroomxebinhduong.com/mazda.jpg"
+            src="https://www.otomazdabinhduong.com/mazda.jpg"
             width={80}
             height={56}
             className={styles.logo_img}

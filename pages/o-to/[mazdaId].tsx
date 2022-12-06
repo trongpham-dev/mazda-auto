@@ -35,9 +35,9 @@ function renderDetail(carDetail: CarDetail, screenSize: number) {
   let metaData: MetaData = {
     title: carDetail.carName,
     description: `${carDetail.carName} | Mazda Bình Dương `,
-    canonicalUrl: `https://showroomxebinhduong.com/o-to/mazda?id=${carDetail.carId}`,
+    canonicalUrl: `https://showroomxebinhduong.com/o-to/${carDetail.carId}`,
     ogType: "image",
-    ogImageUrl: `https://showroomxebinhduong.com/${carDetail.carImage[0]?.original}`,
+    ogImageUrl: carDetail.carImage[0]?.original,
   };
 
   return (

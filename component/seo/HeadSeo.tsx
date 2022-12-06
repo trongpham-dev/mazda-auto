@@ -18,13 +18,12 @@ const HeadSeo = (props: Props) => {
       <link
         rel="icon"
         type="image/jpg"
-        href="https://main.d28u7m8fcyk6b7.amplifyapp.com/mazda.jpg"
+        href="https://www.showroomxebinhduong.com/mazda.jpg"
       />
       <link rel="canonical" href={props.canonicalUrl} />
       <meta charSet="utf-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <meta name="robots" content="index, follow" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="description" content={props.description} />
       <meta
         name="keywords"

@@ -69,6 +69,7 @@ export default function Home(props: Props) {
                     >
                       <a>
                         <Image
+                          className={styles.image}
                           src={car.productImage}
                           width={380}
                           height={213}

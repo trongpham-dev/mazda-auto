@@ -11,7 +11,7 @@ export let product_list: Car[] = [
   {
     productId: "mazda-2",
     productName: "MAZDA 2",
-    productImage: "https://showroomxebinhduong.com/mazda2.jpg",
+    productImage: "https://showroomxebinhduong.com/mazda2.webp",
     productPrice: "479.000.000₫",
   },
   {

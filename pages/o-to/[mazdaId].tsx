@@ -92,7 +92,7 @@ function renderDetail(carDetail: CarDetail, screenSize: number) {
                     target="_self"
                     className={styles.phone}
                   >
-                    <span>039.339.9053</span>
+                    <span>087.858.4868</span>
                   </a>
                 </div>
               </div>
@@ -154,7 +154,10 @@ function RenderMazda2() {
     <div className={styles.description_wrapper}>
       <div className={styles.short_video}>
         <video width="1170" height="300" autoPlay={true} controls>
-          <source src="/detail/mazda-2/mazda2-clip.mp4" type="video/mp4" />
+          <source
+            src="https://showroomxebinhduong.com/detail/mazda-2/mazda2-clip.mp4"
+            type="video/mp4"
+          />
         </video>
       </div>
       <h2 className={styles.title}>
@@ -169,7 +172,7 @@ function RenderMazda2() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-2/mazda2-ngoai-that.jpeg"
+          src="https://showroomxebinhduong.com/detail/mazda-2/mazda2-ngoai-that.jpeg"
           width={1170}
           height={675}
           alt="MAZDA 2"
@@ -186,7 +189,7 @@ function RenderMazda2() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-2/mazda2-first-look.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-2/mazda2-first-look.jpg"
           width={1170}
           height={675}
           alt="MAZDA 2"
@@ -202,7 +205,7 @@ function RenderMazda2() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-2/mazda2-drive.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-2/mazda2-drive.jpg"
           width={1170}
           height={675}
           alt="MAZDA 2"
@@ -218,7 +221,7 @@ function RenderMazda2() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-2/mazda2-drive-mode.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-2/mazda2-drive-mode.jpg"
           width={1170}
           height={675}
           alt="MAZDA 2"
@@ -235,7 +238,7 @@ function RenderMazda2() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-2/mazda2-style.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-2/mazda2-style.jpg"
           width={1170}
           height={675}
           alt="Mazda 2"
@@ -253,7 +256,7 @@ function RenderMazda2() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-2/mazda2-inside.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-2/mazda2-inside.jpg"
           width={1170}
           height={675}
           alt="Mazda 2"
@@ -276,7 +279,7 @@ function RenderMazda2() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-2/mazda2-van-hanh.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-2/mazda2-van-hanh.jpg"
           width={1170}
           height={675}
           alt="Mazda 2"
@@ -291,7 +294,10 @@ function RenderMazda3() {
     <div className={styles.description_wrapper}>
       <div className={styles.short_video}>
         <video width="1170" height="300" autoPlay={true} controls>
-          <source src="/detail/mazda-3/mazda3-clip.mp4" type="video/mp4" />
+          <source
+            src="https://showroomxebinhduong.com/detail/mazda-3/mazda3-clip.mp4"
+            type="video/mp4"
+          />
         </video>
       </div>
       <h2 className={styles.title}>
@@ -307,7 +313,7 @@ function RenderMazda3() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-3/mazda3-ngoai-that.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-3/mazda3-ngoai-that.jpg"
           width={1170}
           height={675}
           alt="MAZDA 3"
@@ -329,7 +335,7 @@ function RenderMazda3() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-3/mazda3-design.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-3/mazda3-design.jpg"
           width={1170}
           height={675}
           alt="MAZDA 3"
@@ -352,7 +358,7 @@ function RenderMazda3() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-3/mazda3-safety.png"
+          src="https://showroomxebinhduong.com/detail/mazda-3/mazda3-safety.png"
           width={1170}
           height={675}
           alt="MAZDA 3"
@@ -372,7 +378,7 @@ function RenderMazda3() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-3/mazda3-noi-that.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-3/mazda3-noi-that.jpg"
           width={1170}
           height={675}
           alt="MAZDA 3"
@@ -396,7 +402,7 @@ function RenderMazda3() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-3/mazda3-architecture.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-3/mazda3-architecture.jpg"
           width={1170}
           height={675}
           alt="MAZDA 3"
@@ -417,7 +423,7 @@ function RenderMazda3() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-3/mazda3-drive-mode.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-3/mazda3-drive-mode.jpg"
           width={1170}
           height={675}
           alt="MAZDA 3"
@@ -435,7 +441,7 @@ function RenderMazda3() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-3/mazda3-engine.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-3/mazda3-engine.jpg"
           width={1170}
           height={675}
           alt="MAZDA 3"
@@ -460,7 +466,7 @@ function RenderMazda3() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-3/mazda3-control.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-3/mazda3-control.jpg"
           width={1170}
           height={675}
           alt="MAZDA 3"
@@ -479,7 +485,7 @@ function RenderMazda3() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-3/mazda3-more-safety.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-3/mazda3-more-safety.jpg"
           width={1170}
           height={675}
           alt="MAZDA 3"
@@ -494,7 +500,10 @@ function RenderMazda6() {
     <div className={styles.description_wrapper}>
       <div className={styles.short_video}>
         <video width="1170" height="300" autoPlay={true} controls>
-          <source src="/detail/mazda-6/mazda6-clip.mp4" type="video/mp4" />
+          <source
+            src="https://showroomxebinhduong.com/detail/mazda-6/mazda6-clip.mp4"
+            type="video/mp4"
+          />
         </video>
       </div>
       <h2 className={styles.title}>
@@ -509,7 +518,7 @@ function RenderMazda6() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-6/mazda6-ngoai-that.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-6/mazda6-ngoai-that.jpg"
           width={1170}
           height={675}
           alt="MAZDA 6 Ngoại Thất"
@@ -528,7 +537,7 @@ function RenderMazda6() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-6/mazda6-design-style.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-6/mazda6-design-style.jpg"
           width={1170}
           height={675}
           alt="MAZDA 6 Phong Cách Thiết Kế"
@@ -545,7 +554,7 @@ function RenderMazda6() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-6/mazda6-inside.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-6/mazda6-inside.jpg"
           width={1170}
           height={675}
           alt="MAZDA 6 Khoang Nội Thất"
@@ -563,7 +572,7 @@ function RenderMazda6() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-6/mazda6-luxury.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-6/mazda6-luxury.jpg"
           width={1170}
           height={675}
           alt="MAZDA 6 Sang Trọng Lịch Lãm"
@@ -582,7 +591,7 @@ function RenderMazda6() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-6/mazda6-tech.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-6/mazda6-tech.jpg"
           width={1170}
           height={675}
           alt="Công Nghệ Trên Mazda 6"
@@ -600,7 +609,7 @@ function RenderMazda6() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-6/mazda6-engine.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-6/mazda6-engine.jpg"
           width={1170}
           height={675}
           alt="Động cơ trên Mazda 6"
@@ -619,7 +628,7 @@ function RenderMazda6() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/mazda-6/mazda6-architecture.jpg"
+          src="https://showroomxebinhduong.com/detail/mazda-6/mazda6-architecture.jpg"
           width={1170}
           height={675}
           alt="Kiến trúc Mazda 6"
@@ -634,7 +643,10 @@ function RenderMazdaCx3() {
     <div className={styles.description_wrapper}>
       <div className={styles.short_video}>
         <video width="1170" height="300" autoPlay={true} controls>
-          <source src="/detail/cx-3/cx3-clip.mp4" type="video/mp4" />
+          <source
+            src="https://showroomxebinhduong.com/detail/cx-3/cx3-clip.mp4"
+            type="video/mp4"
+          />
         </video>
       </div>
       <h2 className={styles.title}>
@@ -651,7 +663,7 @@ function RenderMazdaCx3() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-3/cx3-ngoai-that.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-3/cx3-ngoai-that.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX3 Ngoại Thất"
@@ -668,7 +680,7 @@ function RenderMazdaCx3() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-3/cx3-noi-that.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-3/cx3-noi-that.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX3 Nội Thất"
@@ -686,7 +698,7 @@ function RenderMazdaCx3() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-5/cx5-engine.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-5/cx5-engine.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX3 Khung Máy"
@@ -703,7 +715,7 @@ function RenderMazdaCx3() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-3/cx3-design.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-3/cx3-design.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX3 Thiết Kế"
@@ -721,7 +733,7 @@ function RenderMazdaCx3() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-3/cx3-space.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-3/cx3-space.JPG"
           width={1170}
           height={675}
           alt="MAZDA CX3 Không Gian Nội Thất"
@@ -739,7 +751,7 @@ function RenderMazdaCx3() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-3/cx3-hbc.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-3/cx3-hbc.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX3 Đèn Pha Thông minh HBC"
@@ -757,7 +769,7 @@ function RenderMazdaCx3() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-3/cx3-ldws.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-3/cx3-ldws.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX3 Hệ Thống Cảnh Báo"
@@ -787,7 +799,7 @@ function RenderMazdaCx30() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-30/cx30-ngoai-that.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-30/cx30-ngoai-that.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX30 Ngoại Thất"
@@ -807,7 +819,7 @@ function RenderMazdaCx30() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-30/cx30-head.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-30/cx30-head.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX30 Đầu Xe"
@@ -824,7 +836,7 @@ function RenderMazdaCx30() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-30/cx30-body.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-30/cx30-body.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX30 Thân Xe"
@@ -841,7 +853,7 @@ function RenderMazdaCx30() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-30/cx30-duoi-xe.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-30/cx30-duoi-xe.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX30 Đuôi Xe"
@@ -865,7 +877,7 @@ function RenderMazdaCx30() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-30/cx30-inside.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-30/cx30-inside.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX30 Nội Thất"
@@ -879,7 +891,7 @@ function RenderMazdaCx30() {
       <p className={styles.content}>Tự tin di chuyển trên mọi hành trình</p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-30/cx30-safety.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-30/cx30-safety.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX30 Túi Khí"
@@ -897,7 +909,7 @@ function RenderMazdaCx30() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-30/cx30-rcta.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-30/cx30-rcta.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX30 Cảnh Báo Phương Tiện Cắt Ngang"
@@ -915,7 +927,7 @@ function RenderMazdaCx30() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-30/cx30-las.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-30/cx30-las.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX30 Hệ Thống giữ Làn Đường"
@@ -937,7 +949,7 @@ function RenderMazdaCx30() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-30/cx30-engine.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-30/cx30-engine.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX30 Động Cơ"
@@ -967,7 +979,7 @@ function RenderMazdaCx5() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-5/cx-5-ngoai-that.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-5/cx-5-ngoai-that.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX-5"
@@ -992,7 +1004,7 @@ function RenderMazdaCx5() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-5/cx5-noi-that.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-5/cx5-noi-that.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX-5"
@@ -1013,7 +1025,7 @@ function RenderMazdaCx5() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-5/cx5-drive.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-5/cx5-drive.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX-5"
@@ -1036,7 +1048,7 @@ function RenderMazdaCx5() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-5/cx5-safety.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-5/cx5-safety.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX-5"
@@ -1059,7 +1071,7 @@ function RenderMazdaCx5() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-5/cx5-engine.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-5/cx5-engine.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX-5"
@@ -1089,7 +1101,7 @@ function RenderMazdaCx8() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-8/cx8-ngoai-that.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-8/cx8-ngoai-that.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX8 Ngoại Thất"
@@ -1109,7 +1121,7 @@ function RenderMazdaCx8() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-8/cx8-design.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-8/cx8-design.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX8 Thiết Kế"
@@ -1130,7 +1142,7 @@ function RenderMazdaCx8() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-8/cx8-drive.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-8/cx8-drive.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX8 Cảm giác Lái"
@@ -1153,7 +1165,7 @@ function RenderMazdaCx8() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-8/cx8-safety.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-8/cx8-safety.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX8 Trang Bị An Toàn"
@@ -1174,7 +1186,7 @@ function RenderMazdaCx8() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-8/cx8-noi-that.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-8/cx8-noi-that.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX8 Nội Thất"
@@ -1191,7 +1203,7 @@ function RenderMazdaCx8() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-8/cx8-suv.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-8/cx8-suv.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX8 SUV 7 Chỗ Đích Thực"
@@ -1214,7 +1226,7 @@ function RenderMazdaCx8() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-8/cx8-tech.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-8/cx8-tech.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX8 Trang Bị Công Nghệ Cao Cấp"
@@ -1233,7 +1245,7 @@ function RenderMazdaCx8() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-8/cx8-architect.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-8/cx8-architect.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX8 Hệ Thống SKYACTIV-VEHICLE DYNAMICS"
@@ -1250,7 +1262,7 @@ function RenderMazdaCx8() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/cx-8/cx8-engine.jpg"
+          src="https://showroomxebinhduong.com/detail/cx-8/cx8-engine.jpg"
           width={1170}
           height={675}
           alt="MAZDA CX8 Động Cơ Mạnh Mẽ"
@@ -1265,7 +1277,10 @@ function RenderMazdaBt50() {
     <div className={styles.description_wrapper}>
       <div className={styles.short_video}>
         <video width="1170" height="300" autoPlay={true} controls>
-          <source src="/detail/bt-50/bt50-clip.mp4" type="video/mp4" />
+          <source
+            src="https://showroomxebinhduong.com/detail/bt-50/bt50-clip.mp4"
+            type="video/mp4"
+          />
         </video>
       </div>
       <h2 className={styles.title}>
@@ -1280,7 +1295,7 @@ function RenderMazdaBt50() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/bt-50/bt50-ngoai-that.jpg"
+          src="https://showroomxebinhduong.com/detail/bt-50/bt50-ngoai-that.jpg"
           width={1170}
           height={675}
           alt="MAZDA BT-50 Ngoại Thất"
@@ -1302,7 +1317,7 @@ function RenderMazdaBt50() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/bt-50/bt50-noi-that.jpg"
+          src="https://showroomxebinhduong.com/detail/bt-50/bt50-noi-that.jpg"
           width={1170}
           height={675}
           alt="MAZDA BT50 Nội Thất"
@@ -1318,7 +1333,7 @@ function RenderMazdaBt50() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/bt-50/bt50-space.jpg"
+          src="https://showroomxebinhduong.com/detail/bt-50/bt50-space.jpg"
           width={1170}
           height={675}
           alt="MAZDA BT50 Không Gian Nội Thất"
@@ -1340,7 +1355,7 @@ function RenderMazdaBt50() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/bt-50/bt50-offroad.jpg"
+          src="https://showroomxebinhduong.com/detail/bt-50/bt50-offroad.jpg"
           width={1170}
           height={675}
           alt="MAZDA BT50 Khả Năng Vận Hành Vượt Trội"
@@ -1358,7 +1373,7 @@ function RenderMazdaBt50() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/bt-50/bt50-drive-mode.jpg"
+          src="https://showroomxebinhduong.com/detail/bt-50/bt50-drive-mode.jpg"
           width={1170}
           height={675}
           alt="MAZDA BT50 Các chế độ gài cầu"
@@ -1379,7 +1394,7 @@ function RenderMazdaBt50() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/bt-50/bt50-khung-gam.jpg"
+          src="https://showroomxebinhduong.com/detail/bt-50/bt50-khung-gam.jpg"
           width={1170}
           height={675}
           alt="MAZDA BT-50 Hệ Thống Khung Gầm Chắc Chắn"
@@ -1400,7 +1415,7 @@ function RenderMazdaBt50() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/bt-50/bt50-safety.jpg"
+          src="https://showroomxebinhduong.com/detail/bt-50/bt50-safety.jpg"
           width={1170}
           height={675}
           alt="MAZDA BT-50 Hệ thống túi khí"
@@ -1419,7 +1434,7 @@ function RenderMazdaBt50() {
       </p>
       <div className={styles.image}>
         <Image
-          src="/detail/bt-50/bt50-engine.jpg"
+          src="https://showroomxebinhduong.com/detail/bt-50/bt50-engine.jpg"
           width={1170}
           height={675}
           alt="MAZDA BT-50 Động Cơ Mạnh Mẽ"

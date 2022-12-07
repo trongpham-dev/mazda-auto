@@ -33,7 +33,7 @@ export default function Mazda(props: Props) {
 
 function renderDetail(carDetail: CarDetail, screenSize: number) {
   let metaData: MetaData = {
-    title: `Mazda Bình Dương: ${carDetail.carName}`,
+    title: `Mazda Bình Dương - Gía xe ${carDetail.carName} và đánh giá thông số kĩ thuật.`,
     description: `${carDetail.carName} | Mazda Bình Dương `,
     canonicalUrl: `https://www.otomazdabinhduong.com/o-to/${carDetail.carId}`,
     ogType: "image",

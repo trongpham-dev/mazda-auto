@@ -55,7 +55,7 @@ export default function Home(props: Props) {
         <div className={styles.product_wrapper}>
           <div className={styles.product_inner}>
             <div className={styles.product_intro}>
-              <h2 className={styles.intro_text}>CÁC DÒNG XE MAZDA</h2>
+              <h1 className={styles.intro_text}>CÁC DÒNG XE MAZDA</h1>
             </div>
             <div className={styles.product_list}>
               {props.carList.map((car) => (
@@ -73,7 +73,7 @@ export default function Home(props: Props) {
                           src={car.productImage}
                           width={380}
                           height={213}
-                          alt={car.productName}
+                          alt={`Xe ${car.productName} 2022`}
                         />
                       </a>
                     </Link>

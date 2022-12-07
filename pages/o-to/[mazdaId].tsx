@@ -175,7 +175,7 @@ function RenderMazda2() {
           src="https://www.otomazdabinhduong.com/detail/mazda-2/mazda2-ngoai-that.jpg"
           width={1170}
           height={675}
-          alt="MAZDA 2"
+          alt="Ngoại Hình Xe Mazda 2"
         />
       </div>
       <h2 className={styles.title}>
@@ -192,7 +192,7 @@ function RenderMazda2() {
           src="https://www.otomazdabinhduong.com/detail/mazda-2/mazda2-first-look.jpg"
           width={1170}
           height={675}
-          alt="MAZDA 2"
+          alt="Cận cảnh xe Mazda 2"
         />
       </div>
       <h2 className={styles.title}>
@@ -208,7 +208,7 @@ function RenderMazda2() {
           src="https://www.otomazdabinhduong.com/detail/mazda-2/mazda2-drive.jpg"
           width={1170}
           height={675}
-          alt="MAZDA 2"
+          alt="Cảm giác lái mượt mà trên Mazda 2"
         />
       </div>
       <h2 className={styles.title}>
@@ -224,7 +224,7 @@ function RenderMazda2() {
           src="https://www.otomazdabinhduong.com/detail/mazda-2/mazda2-drive-mode.jpg"
           width={1170}
           height={675}
-          alt="MAZDA 2"
+          alt="Lái xe với tâm trí thoải mái cùng Mazda 2"
         />
       </div>
       <h2 className={styles.title}>
@@ -241,7 +241,7 @@ function RenderMazda2() {
           src="https://www.otomazdabinhduong.com/detail/mazda-2/mazda2-style.jpg"
           width={1170}
           height={675}
-          alt="Mazda 2"
+          alt="Mazda 2 phong cách thời thượng"
         />
       </div>
       <h2 className={styles.title}>
@@ -259,7 +259,7 @@ function RenderMazda2() {
           src="https://www.otomazdabinhduong.com/detail/mazda-2/mazda2-inside.jpg"
           width={1170}
           height={675}
-          alt="Mazda 2"
+          alt="Cận cảnh bên trong Mazda 2"
         />
       </div>
       <h2 className={styles.title}>
@@ -282,7 +282,7 @@ function RenderMazda2() {
           src="https://www.otomazdabinhduong.com/detail/mazda-2/mazda2-van-hanh.jpg"
           width={1170}
           height={675}
-          alt="Mazda 2"
+          alt="Vận hành tối ưu với Mazda 2"
         />
       </div>
     </div>
@@ -316,7 +316,7 @@ function RenderMazda3() {
           src="https://www.otomazdabinhduong.com/detail/mazda-3/mazda3-ngoai-that.jpg"
           width={1170}
           height={675}
-          alt="MAZDA 3"
+          alt="Ngoại hình Mazda 3 2022"
         />
       </div>
       <h2 className={styles.title}>
@@ -338,7 +338,7 @@ function RenderMazda3() {
           src="https://www.otomazdabinhduong.com/detail/mazda-3/mazda3-design.jpg"
           width={1170}
           height={675}
-          alt="MAZDA 3"
+          alt="Thiết kế thời thường của Mazda 3"
         />
       </div>
       <h2 className={styles.title}>
@@ -361,7 +361,7 @@ function RenderMazda3() {
           src="https://www.otomazdabinhduong.com/detail/mazda-3/mazda3-safety.png"
           width={1170}
           height={675}
-          alt="MAZDA 3"
+          alt="Tính năng trên Mazda 3"
         />
       </div>
       <h2 className={styles.title}>
@@ -381,7 +381,7 @@ function RenderMazda3() {
           src="https://www.otomazdabinhduong.com/detail/mazda-3/mazda3-noi-that.jpg"
           width={1170}
           height={675}
-          alt="MAZDA 3"
+          alt="Cảm hứng thiết kế Mazda 3"
         />
       </div>
       <h2 className={styles.title}>
@@ -405,7 +405,7 @@ function RenderMazda3() {
           src="https://www.otomazdabinhduong.com/detail/mazda-3/mazda3-architecture.jpg"
           width={1170}
           height={675}
-          alt="MAZDA 3"
+          alt="Kiến trúc xe vượt trội của Mazda 3"
         />
       </div>
       <h2 className={styles.title}>
@@ -426,7 +426,7 @@ function RenderMazda3() {
           src="https://www.otomazdabinhduong.com/detail/mazda-3/mazda3-drive-mode.jpg"
           width={1170}
           height={675}
-          alt="MAZDA 3"
+          alt="Cảm giác lái đỉnh cao cùng Mazda 3"
         />
       </div>
       <h2 className={styles.title}>
@@ -444,7 +444,7 @@ function RenderMazda3() {
           src="https://www.otomazdabinhduong.com/detail/mazda-3/mazda3-engine.jpg"
           width={1170}
           height={675}
-          alt="MAZDA 3"
+          alt="Động cơ mạnh mẽ bền bĩ trên Mazda 3"
         />
       </div>
       <h2 className={styles.title}>
@@ -469,7 +469,7 @@ function RenderMazda3() {
           src="https://www.otomazdabinhduong.com/detail/mazda-3/mazda3-control.jpg"
           width={1170}
           height={675}
-          alt="MAZDA 3"
+          alt="Tính năng trên Mazda 3"
         />
       </div>
       <h2 className={styles.title}>
@@ -488,7 +488,7 @@ function RenderMazda3() {
           src="https://www.otomazdabinhduong.com/detail/mazda-3/mazda3-more-safety.jpg"
           width={1170}
           height={675}
-          alt="MAZDA 3"
+          alt="Trang bị an toàn trên Mazda 3"
         />
       </div>
     </div>

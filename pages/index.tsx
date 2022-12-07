@@ -9,12 +9,12 @@ import MetaData from "../data/meta";
 import SliderImage, { sliderImages } from "../data/slider";
 
 let metaData: MetaData = {
-  title: "Mazda Bình Dương",
+  title: "Mazda Bình Dương: Đại Lý Phân Phối Chính Thức Của Mazda",
   description:
     "Showroom chính hãng xe ôtô Mazda tại Bình Dương đầy đủ các dòng xe Mazda mới 2022, đăng ký báo giá xe Mazda và lái thử trực tiếp. | Mazda Bình Dương",
-  canonicalUrl: "https://showroomxebinhduong.com",
+  canonicalUrl: "https://otomazdabinhduong.com/",
   ogType: "Website",
-  ogImageUrl: "https://showroomxebinhduong.com/cx-5-ngoai-that.jpg",
+  ogImageUrl: "https://otomazdabinhduong.com/cx-5-ngoai-that.jpg",
 };
 
 interface Props {

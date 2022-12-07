@@ -33,7 +33,7 @@ export default function Mazda(props: Props) {
 
 function renderDetail(carDetail: CarDetail, screenSize: number) {
   let metaData: MetaData = {
-    title: carDetail.carName,
+    title: `Mazda Bình Dương: ${carDetail.carName}`,
     description: `${carDetail.carName} | Mazda Bình Dương `,
     canonicalUrl: `https://www.otomazdabinhduong.com/o-to/${carDetail.carId}`,
     ogType: "image",
@@ -60,7 +60,7 @@ function renderDetail(carDetail: CarDetail, screenSize: number) {
               />
             </div>
             <div className={styles.car_infor}>
-              <h2 className={styles.car_name}>{carDetail.carName}</h2>
+              <h1 className={styles.car_name}>{carDetail.carName}</h1>
               <div className={styles.divider}></div>
               <div className={styles.price_wrapper}>
                 <p className={styles.car_price}>
@@ -172,7 +172,7 @@ function RenderMazda2() {
       </p>
       <div className={styles.image}>
         <Image
-          src="https://www.otomazdabinhduong.com/detail/mazda-2/mazda2-ngoai-that.jpeg"
+          src="https://www.otomazdabinhduong.com/detail/mazda-2/mazda2-ngoai-that.jpg"
           width={1170}
           height={675}
           alt="MAZDA 2"

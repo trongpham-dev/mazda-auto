@@ -1278,7 +1278,7 @@ function RenderMazdaCx8() {
       </p>
       <div className={styles.image}>
         <Image
-          src="https://www.otomazdabinhduong.com/detail/cx-8/cx8-hang-ghe-ba.jpg"
+          src="https://www.otomazdabinhduong.com/detail/cx-8/cx8-khoang-hanh-ly.jpg"
           width={1170}
           height={675}
           alt="Khoang hành lý Mazda CX-8 2022"
@@ -1326,44 +1326,6 @@ function RenderMazdaCx8() {
           width={1170}
           height={675}
           alt="MAZDA CX8 Trang Bị An Toàn"
-        />
-      </div>
-      <h2 className={styles.title}>
-        <strong className={styles.title_content}>
-          NỘI THẤT MAZDA CX-8 ĐẲNG CẤP, SANG TRỌNG
-        </strong>
-      </h2>
-      <p className={styles.content}>
-        Mazda CX-8 là mẫu xe duy nhất phân khúc trang bị da thuộc cao cấp Nappa,
-        loại da tự nhiên, không chỉ mang đến cảm giác êm ái, mềm mại và mịn
-        màng, thoáng khí. Bên cạnh đó là các chi tiết ốp gỗ Ayous sang trọng
-        được chọn lọc và xử lý kỹ lưỡng. Tất cả hướng đến mục tiêu nâng cao đẳng
-        cấp cho người sử dụng, tôn vinh giá trị và tăng trải nghiệm cho người sở
-        hữu.
-      </p>
-      <div className={styles.image}>
-        <Image
-          src="https://www.otomazdabinhduong.com/detail/cx-8/cx8-noi-that.jpg"
-          width={1170}
-          height={675}
-          alt="MAZDA CX8 Nội Thất"
-        />
-      </div>
-      <h2 className={styles.title}>
-        <strong className={styles.title_content}>SUV 7 CHỖ ĐÍCH THỰC</strong>
-      </h2>
-      <p className={styles.content}>
-        Mẫu SUV 7 chỗ mang đến không gian rộng rãi với hàng ghế thứ 3, tạo
-        khoảng trống giúp hành khách để chân thoải mái. Hàng ghế thứ 3 thậm chí
-        có thể đáp ứng các hành khách có chiều cao vượt trội. Việc ra vào cửa và
-        hàng ghế thứ ba cũng rất dễ dàng.
-      </p>
-      <div className={styles.image}>
-        <Image
-          src="https://www.otomazdabinhduong.com/detail/cx-8/cx8-suv.jpg"
-          width={1170}
-          height={675}
-          alt="MAZDA CX8 SUV 7 Chỗ Đích Thực"
         />
       </div>
       <h2 className={styles.title}>

@@ -1095,36 +1095,193 @@ function RenderMazdaCx8() {
         </strong>
       </h2>
       <p className={styles.content}>
-        Tại Mazda, không có chi tiết nào được xem là chi tiết nhỏ khi đề cập đến
-        quá trình tạo nên một mẫu xe. Mazda CX-8 là sự kết hợp hoàn hảo từ thiết
-        kế đến tiện nghi, công nghệ, giúp chiếc xe dễ dàng thu hút mọi ánh nhìn.
+        Với chiều dài tổng thể 4.900 mm và chiều rộng 1.840 mm, đặc biệt chiều
+        dài cơ sở lên đến 2.930 mm, <strong>New Mazda CX-8 </strong> là mẫu SUV
+        đô thị sở hữu kích thước cả bên ngoài và bên trong hoàn nhỉnh hơn trong
+        cùng phân khúc. Thiết kế ngoại thất Mazda CX8 vẫn được lấy cảm hứng từ
+        ngôn ngữ Kodo vốn được áp dụng cho hầu hết những mẫu xe của Mazda hiện
+        nay, bổ sung thêm triết lý mới như less is more, car as art.
       </p>
       <div className={styles.image}>
         <Image
           src="https://www.otomazdabinhduong.com/detail/cx-8/cx8-ngoai-that.jpg"
           width={1170}
           height={675}
-          alt="MAZDA CX8 Ngoại Thất"
+          alt="Đánh giá ngoại Mazda CX-8 2022"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>ĐẦU XE MAZDA CX-8 2022</strong>
+      </h2>
+      <p className={styles.content}>
+        So với thế hệ trước, ngoại thất của Mazda CX-8 có một số thay đổi ở
+        thiết kế mặt ca-lăng. Lưới tản nhiệt khác biệt so với thế hệ trước, kết
+        hợp cùng đường viền chrome bắt mắt. Tổng thể xe vẫn theo triết lý thiết
+        kế Kodo của Mazda trong nhiều năm nay.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="https://www.otomazdabinhduong.com/detail/cx-8/cx8-dau-xe.jpg"
+          width={1170}
+          height={675}
+          alt="Thiết kế đầu xe Mazda CX-8 2022"
+        />
+      </div>
+      <p className={styles.content}>
+        Đèn Mazda CX8 2022 sử dụng bộ đèn full led cho ánh sáng trắng kể cả
+        chiếu gần hay xa, đèn sương mù cũng sử dụng bóng led. Với việc sử dụng
+        đèn cao cấp này thì việc đi trong thành phố và đặc biệt ở ngoại ô thì
+        việc đi vào ban đêm không còn nỗi lo cho tài xế.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="https://www.otomazdabinhduong.com/detail/cx-8/cx8-led.jpg"
+          width={1170}
+          height={675}
+          alt="Đèn full led trên Mazda CX-8 2022"
         />
       </div>
       <h2 className={styles.title}>
         <strong className={styles.title_content}>
-          THỔI HỒN CUỘC SỐNG VÀO THIẾT KẾ
+          ĐUÔI XE NEW MAZDA CX-8 2022
         </strong>
       </h2>
       <p className={styles.content}>
-        Thiết kế KODO của Mazda: Triết lý thiết kế của Soul Motion truyền tải
-        cảm giác về sức mạnh và năng lượng được thể hiện trong kiểu dáng thể
-        thao của Mazda CX-8, mui xe thon dài và mái nhà thon. Hiệu ứng tổng thể
-        là sự kết hợp giữa sức mạnh tổng hợp và chuyển động tức thời, tạo ra một
-        chiếc SUV 7 chỗ thực sự nổi bật.
+        Về đuôi xe Mazda CX8 2022 cực kỳ nổi bật nhờ bộ đèn Led kết hợp viền
+        chrome, ống xã kép thể thao nhìn xe khỏe khoắn và sang trọng. Thiết kế
+        đuôi xe với triết lý đối xứng tạo cảm giác bề thế và vững chãi, với
+        thanh crôm kéo dài nối liền 2 cụm đèn hậu LED 3D.
       </p>
       <div className={styles.image}>
         <Image
-          src="https://www.otomazdabinhduong.com/detail/cx-8/cx8-design.jpg"
+          src="https://www.otomazdabinhduong.com/detail/cx-8/cx8-duoi-xe.jpg"
           width={1170}
           height={675}
-          alt="MAZDA CX8 Thiết Kế"
+          alt="Thiết kế đuôi xe Mazda CX-8 2022"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          MAZDA CX-8 2022 NỘI THẤT SANG TRỌNG TRONG PHÂN KHÚC
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Toàn bộ không gian bên trong Mazda CX-8 được tối ưu nhằm tăng sự thoải
+        mái cho 7 người ngồi bên trong, đây là chiếc xe 7 chỗ fullsize có chiều
+        dài cơ sở lớn trong phân khúc với 2930mm. Nhìn tổng thể{" "}
+        <strong>New Mazda CX-8 </strong> khó hình dung ra được một dòng xe Nhật
+        thường thiết kế theo phong cách truyền thống lại có nội thất sang trọng,
+        đẳng cấp như các dòng xe cao cấp của châu Âu.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="https://www.otomazdabinhduong.com/detail/cx-8/cx8-suv.jpg"
+          width={1170}
+          height={675}
+          alt="Nội thất bên trong Mazda CX-8 2022"
+        />
+      </div>
+      <p className={styles.content}>
+        Mazda CX-8 mới bọc da Nappa cao cấp, thường dùng trên nhiều dòng xe
+        sang. Nhiều chi tiết trên xe ốp gỗ tự nhiên mang đến trải nghiệm sang
+        trọng hơn cho người dùng. Thiết kế cabin mang tính công thái học cao,
+        tạo sự thuận tiện cho người điều khiển.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="https://www.otomazdabinhduong.com/detail/cx-8/cx8-noi-that.jpg"
+          width={1170}
+          height={675}
+          alt="Thiết kế buồng lái Mazda CX-8 2022"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          HÀNG GHẾ ĐẦU MAZDA CX-8 2022
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Hàng ghế đầu được thiết kế theo phong cách thể thao, ôm sát phần lưng
+        người lái giúp những chuyến hành trình dài thú vị và đỡ mệt mỏi.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="https://www.otomazdabinhduong.com/detail/cx-8/cx8-hang-ghe-dau.jpg"
+          width={1170}
+          height={675}
+          alt="Hàng ghế đầu Mazda CX-8 2022"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          HÀNG GHẾ THỨ HAI MAZDA CX-8 2022
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Ở hàng ghế thứ hai tiện nghi hơn khi được trang bị cổng USB, điều chỉnh
+        nhiệt độ điều hòa vùng phía sau. Không gian đủ rộng lớn dành cho 3 người
+        ngồi.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="https://www.otomazdabinhduong.com/detail/cx-8/cx8-hang-ghe-hai.jpg"
+          width={1170}
+          height={675}
+          alt="Hàng ghế thứ hai Mazda CX-8 2022"
+        />
+      </div>
+      <p className={styles.content}>
+        Đối với phiên bản 6 chỗ, hàng ghế thứ 2 theo phong cách thương gia với
+        các tính năng sưởi ghế, người dùng có bệ tỳ tay riêng, tích hợp nút điều
+        khiển sưởi, cổng sạc USB, hộc chứa đồ rộng và có ngăn để cốc thuận tiện.
+        Hàng ghế trước chỉnh điện, nhớ vị trí ghế lái và nâng cấp tiện nghi.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="https://www.otomazdabinhduong.com/detail/cx-8/cx8-6-cho.jpg"
+          width={1170}
+          height={675}
+          alt="Hàng ghế thứ hai Mazda CX-8 2022 đối với phiên bản 6 chỗ"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          HÀNG GHẾ THỨ BA MAZDA CX-8 2022
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Hàng ghế thứ 3 rất quan trọng đối với một gia đình lớn vì nó cung cấp
+        chỗ ngồi cho 7, 8 thậm chí là 9 hành khách. Tuy vậy, không phải mẫu xe
+        nào cũng có hàng ghế thứ 3 rộng rãi, ngồi thoải mái và nếu đi hết 7
+        người thì hầu như không còn chỗ để hành lý. Thấu hiểu được đều đó, hàng
+        ghế sau Mazda CX-8 đáp ứng 2 tiêu chí vừa ngồi thoải mái cho 2 người lớn
+        và còn dư không gian phía sau để hành lý.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="https://www.otomazdabinhduong.com/detail/cx-8/cx8-hang-ghe-ba.jpg"
+          width={1170}
+          height={675}
+          alt="Hàng ghế thứ ba Mazda CX-8 2022"
+        />
+      </div>
+      <h2 className={styles.title}>
+        <strong className={styles.title_content}>
+          KHOANG HÀNH LÝ MAZDA CX-8 2022
+        </strong>
+      </h2>
+      <p className={styles.content}>
+        Khoang hành lý có sức chứa lên đến 209 lít nếu ngồi 7 người, 742 lít nếu
+        ngồi 5 người. Đây là một lợi thế của{" "}
+        <strong>New Mazda CX-8 2022</strong> vì hầu như các dòng trong phân khúc
+        5+2 hay 7 chỗ nếu đi 7 người hầu như không còn chỗ để chứa hành lý.
+      </p>
+      <div className={styles.image}>
+        <Image
+          src="https://www.otomazdabinhduong.com/detail/cx-8/cx8-hang-ghe-ba.jpg"
+          width={1170}
+          height={675}
+          alt="Khoang hành lý Mazda CX-8 2022"
         />
       </div>
       <h2 className={styles.title}>

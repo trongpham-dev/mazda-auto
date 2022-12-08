@@ -73,7 +73,7 @@ export default function Header() {
                 </a>
               </Nav.Item>
               <Nav.Item eventKey="3-3">
-                <a className={styles.link} href="/o-to/mazda-3">
+                <a className={styles.link} href="/o-to/mazda-6">
                   All-New Mazda 6
                 </a>
               </Nav.Item>
@@ -133,7 +133,7 @@ export default function Header() {
                   <Nav.Item eventKey="3-2" href="/o-to/mazda-3">
                     All-New Mazda 3
                   </Nav.Item>
-                  <Nav.Item eventKey="3-3" href="/o-to/mazda-3">
+                  <Nav.Item eventKey="3-3" href="/o-to/mazda-6">
                     All-New Mazda 6
                   </Nav.Item>
                 </Nav.Menu>
